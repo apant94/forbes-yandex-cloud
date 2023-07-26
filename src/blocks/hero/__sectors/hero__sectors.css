@@ -1,0 +1,7 @@
+.hero__sectors {
+  display: flex;
+  border: 1px solid var(--primary-color);
+  width: 100%;
+  height: 120px;
+  margin: 57px 0 0;
+}

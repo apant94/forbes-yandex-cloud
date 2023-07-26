@@ -1,0 +1,9 @@
+.root {
+  --text-size: 20px;
+  --yc-primary-gradient: linear-gradient(
+    180deg,
+    #5d81f7 0%,
+    rgba(93, 129, 247, 0) 89.58%
+  );
+  --primary-color: #5d81f7;
+}
