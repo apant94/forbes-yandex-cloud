@@ -1,0 +1,7 @@
+@font-face {
+  src: url(./NTSomic-Regular.woff2) format('woff2'),
+    url(./NTSomic-Regular.otf) format('opentype'),
+    url(./NTSomic-Regular.ttf) format('truetype');
+  font-family: 'NTSomic';
+  /* font-weight: 400; */
+}

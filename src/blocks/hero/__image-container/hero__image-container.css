@@ -1,0 +1,7 @@
+.hero__image-container {
+  background: var(--yc-primary-gradient);
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}

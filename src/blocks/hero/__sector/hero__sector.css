@@ -1,0 +1,13 @@
+.hero__sector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-right: 1px solid var(--primary-color);
+}
+
+.hero__sector:last-child {
+  border-right: none;
+}
