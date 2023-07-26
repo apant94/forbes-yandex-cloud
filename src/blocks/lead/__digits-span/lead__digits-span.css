@@ -1,0 +1,9 @@
+.lead__digits-span {
+  font-size: 28.6px;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: 0.4px;
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+}

@@ -3,5 +3,17 @@
     url(./NTSomic-Regular.otf) format('opentype'),
     url(./NTSomic-Regular.ttf) format('truetype');
   font-family: 'NTSomic';
-  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./NTSomic-Bold.woff2) format('woff2'),
+    url(./NTSomic-Bold.otf) format('opentype'),
+    url(./NTSomic-Bold.ttf) format('truetype');
+  font-family: 'NTSomic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
 }
