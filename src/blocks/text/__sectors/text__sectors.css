@@ -1,0 +1,10 @@
+.text__sectors {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid var(--primary-color);
+  border-right: none;
+  padding: 0;
+  margin: 0;
+  height: min-content;
+}

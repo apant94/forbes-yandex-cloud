@@ -1,0 +1,14 @@
+.text__sector {
+  text-decoration: none;
+  display: flex;
+  padding: 40px 80px 50px 0px;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  height: 80px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.text__sector:last-child {
+  border: none;
+}

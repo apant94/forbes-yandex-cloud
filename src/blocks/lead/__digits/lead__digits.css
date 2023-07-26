@@ -1,0 +1,9 @@
+.lead__digits {
+  font-size: 114.3px;
+  font-weight: 400;
+  line-height: 1.05; /* 104.987% */
+  letter-spacing: -4.572px;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 4px 0 1px;
+}
