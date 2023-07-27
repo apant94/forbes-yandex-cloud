@@ -1,5 +1,7 @@
 .root {
   --text-size: 20px;
+  --text-color: #262626;
+  --dark-color: #262626;
   --yc-primary-gradient: linear-gradient(
     180deg,
     #5d81f7 0%,

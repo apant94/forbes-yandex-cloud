@@ -52,3 +52,12 @@
 @import url(../blocks/links/__item-image/links__item-image.css);
 @import url(../blocks/links/__item-sector/links__item-sector.css);
 @import url(../blocks/links/__item-title/links__item-title.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__credit/footer__credit.css);
+@import url(../blocks/footer/__credit-item/footer__credit-item.css);
+@import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__authors-text/footer__authors-text.css);
+@import url(../blocks/footer/__authors-list/footer__authors-list.css);
+@import url(../blocks/footer/__authors-item/footer__authors-item.css);
+@import url(../blocks/footer/__authors-line/footer__authors-line.css);

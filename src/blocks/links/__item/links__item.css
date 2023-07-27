@@ -3,4 +3,5 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  color: var(--text-color);
 }

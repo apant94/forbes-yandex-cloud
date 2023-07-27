@@ -1,0 +1,10 @@
+.footer__credit {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 40px 0 0;
+}

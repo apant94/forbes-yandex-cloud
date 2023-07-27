@@ -1,0 +1,7 @@
+.footer__authors-line {
+  width: auto;
+  height: 1px;
+  margin-top: 0.6em;
+  flex: 1;
+  background-color: #fff;
+}
