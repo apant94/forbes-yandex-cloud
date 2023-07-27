@@ -1,9 +1,10 @@
 .hero__sector {
+  list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.781em;
   flex: 1 0 0;
   border-right: 1px solid var(--primary-color);
 }

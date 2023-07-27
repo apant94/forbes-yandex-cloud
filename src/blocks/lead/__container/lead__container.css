@@ -2,7 +2,7 @@
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   display: flex;
-  height: 600px;
+  height: 46.875em;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
@@ -12,15 +12,15 @@
 .lead__container:first-child {
   grid-column: 1 / 2;
   border-right: none;
-  padding: 45px 40px 30px 40px;
+  padding: 3.516em 3.125em 2.34em;
 }
 
 .lead__container:nth-child(2n) {
-  padding: 30px 40px;
+  padding: 2.34em 3.125em;
 }
 
 .lead__container:last-child {
   grid-row: 2 / 3;
   border-top: none;
-  padding: 45px 40px 30px 40px;
+  padding: 3.516em 3.125em 2.34em;
 }

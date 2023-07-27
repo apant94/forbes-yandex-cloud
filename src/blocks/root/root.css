@@ -1,11 +1,23 @@
+/* html {
+  font-size: 20px;
+} */
+
 .root {
-  --text-size: 20px;
+  --primary-text-size: 1.5625em;
+  --primary-text-padding: 0.2em 0 0.3em;
+  --middle-text-size: 2.23em;
+  --middle-text-padding: 0.105em 0 0.25em;
+  --title-size: 3.344em;
+  --title-padding: 0.07em 0 0.163em;
+  --small-text-size: 1.25em;
+  --sector-width: calc(100% - 6.25em);
+  --sector-margin: 7.812em;
   --text-color: #262626;
   --dark-color: #262626;
+  --primary-color: #5d81f7;
   --yc-primary-gradient: linear-gradient(
     180deg,
     #5d81f7 0%,
     rgba(93, 129, 247, 0) 89.58%
   );
-  --primary-color: #5d81f7;
 }

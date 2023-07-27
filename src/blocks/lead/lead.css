@@ -1,11 +1,7 @@
 .lead {
   display: grid;
-  width: calc(100% - 40px - 40px);
+  width: var(--sector-width);
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content min-content;
   margin: 0 auto;
 }
-
-/* .lead * {
-  border: 1px solid black;
-} */

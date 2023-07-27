@@ -1,9 +1,9 @@
 .lead__digits {
-  font-size: 114.3px;
+  font-size: 8.93em;
   font-weight: 400;
-  line-height: 1.05; /* 104.987% */
-  letter-spacing: -4.572px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
   color: var(--primary-color);
   margin: 0;
-  padding: 4px 0 1px;
+  padding: 0.035em 0 0.009em;
 }
