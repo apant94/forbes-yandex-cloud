@@ -1,4 +1,4 @@
 .text {
-  width: calc(100% - 40px - 40px);
-  margin: 100px auto 0;
+  width: var(--sector-width);
+  margin: var(--sector-margin) auto 0;
 }

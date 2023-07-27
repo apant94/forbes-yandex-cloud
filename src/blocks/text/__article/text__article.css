@@ -1,9 +1,9 @@
 .text__article {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 3.125em;
   border-left: 1px solid var(--primary-color);
-  padding: 50px 40px;
+  padding: 3.91em 3.125em;
   width: 50%;
   box-sizing: border-box;
 }

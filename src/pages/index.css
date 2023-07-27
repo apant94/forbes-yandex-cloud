@@ -29,6 +29,7 @@
 @import url(../blocks/text/__sectors/text__sectors.css);
 @import url(../blocks/text/__sector/text__sector.css);
 @import url(../blocks/text/__svg-wrapper/text__svg-wrapper.css);
+@import url(../blocks/text/__sector-image/text__sector-image.css);
 @import url(../blocks/text/__article/text__article.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
 @import url(../blocks/text/__article-image/text__article-image.css);

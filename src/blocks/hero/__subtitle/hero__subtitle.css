@@ -1,8 +1,8 @@
 .hero__subtitle {
-  font-size: 2.23em;
+  font-size: var(--middle-text-size);
   font-weight: 400;
   line-height: 1.049;
   letter-spacing: -0.0094em;
   margin: 0.524em 0 0;
-  padding: 0.105em 0 0.25em;
+  padding: var(--middle-text-padding);
 }
