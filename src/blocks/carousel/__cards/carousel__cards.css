@@ -1,0 +1,8 @@
+.carousel__cards {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--primary-color);
+}

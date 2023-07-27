@@ -1,0 +1,11 @@
+.carousel__card-title {
+  width: min-content;
+  padding: 13px 20px 17px;
+  margin: 0;
+  font-size: 28.6px;
+  font-weight: 400;
+  line-height: 1.049;
+  letter-spacing: -0.286px;
+  border-right: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}

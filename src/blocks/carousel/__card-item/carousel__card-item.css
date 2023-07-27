@@ -1,0 +1,17 @@
+.carousel__card-item {
+  list-style-type: none;
+  position: relative;
+  padding: 0 0 0 26px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+}
+
+.carousel__card-item::before {
+  content: url(../../../images/carousel-arrow.png);
+  width: 16px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+}
