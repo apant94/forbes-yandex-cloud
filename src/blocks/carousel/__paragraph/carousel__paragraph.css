@@ -1,0 +1,8 @@
+.carousel__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  list-style: none;
+  padding: 4px 0 6px;
+}

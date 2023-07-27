@@ -30,3 +30,14 @@
 @import url(../blocks/text/__article/text__article.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
 @import url(../blocks/text/__article-image/text__article-image.css);
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/carousel/__title/carousel__title.css);
+@import url(../blocks/carousel/__cards/carousel__cards.css);
+@import url(../blocks/carousel/__card/carousel__card.css);
+@import url(../blocks/carousel/__card-title/carousel__card-title.css);
+@import url(../blocks/carousel/__card-list/carousel__card-list.css);
+@import url(../blocks/carousel/__card-item/carousel__card-item.css);
+@import url(../blocks/carousel/__article/carousel__article.css);
+@import url(../blocks/carousel/__paragraphs/carousel__paragraphs.css);
+@import url(../blocks/carousel/__paragraph/carousel__paragraph.css);
+@import url(../blocks/carousel/__article-image/carousel__article-image.css);
