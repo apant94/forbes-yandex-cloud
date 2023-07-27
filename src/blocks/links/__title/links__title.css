@@ -1,0 +1,11 @@
+.links__title {
+  font-size: 42.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.935;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  max-width: 800px;
+  padding: 3px 0 7px;
+  margin: 0;
+}

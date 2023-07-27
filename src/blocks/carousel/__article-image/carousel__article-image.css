@@ -1,5 +1,6 @@
 .carousel__article-image {
   background-image: url(../../../images/carousel-image.png);
-  width: 600px;
-  height: 600px;
+  padding-bottom: 50%;
+  width: 50%;
+  height: 0;
 }

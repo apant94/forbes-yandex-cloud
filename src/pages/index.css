@@ -41,3 +41,14 @@
 @import url(../blocks/carousel/__paragraphs/carousel__paragraphs.css);
 @import url(../blocks/carousel/__paragraph/carousel__paragraph.css);
 @import url(../blocks/carousel/__article-image/carousel__article-image.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__title/links__title.css);
+@import url(../blocks/links/__article/links__article.css);
+@import url(../blocks/links/__article-title/links__article-title.css);
+@import url(../blocks/links/__article-text/links__article-text.css);
+@import url(../blocks/links/__container/links__container.css);
+@import url(../blocks/links/__item-wrapper/links__item-wrapper.css);
+@import url(../blocks/links/__item/links__item.css);
+@import url(../blocks/links/__item-image/links__item-image.css);
+@import url(../blocks/links/__item-sector/links__item-sector.css);
+@import url(../blocks/links/__item-title/links__item-title.css);

@@ -1,0 +1,9 @@
+.links__item-sector {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.16px;
+  padding: 4px 0px 11px;
+  border-bottom: 1px solid var(--primary-color);
+  margin: 20px 0 0;
+}
