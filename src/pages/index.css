@@ -10,6 +10,7 @@
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__sectors/hero__sectors.css);
 @import url(../blocks/hero/__sector/hero__sector.css);
+@import url(../blocks/hero/__sector-image/hero__sector-image.css);
 @import url(../blocks/hero/__sector-name/hero__sector-name.css);
 @import url(../blocks/hero/__image-container/hero__image-container.css);
 @import url(../blocks/hero/__image/hero__image.css);
