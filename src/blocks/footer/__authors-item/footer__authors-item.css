@@ -1,5 +1,5 @@
 .footer__authors-item {
   display: flex;
   justify-content: space-between;
-  gap: 8px;
+  gap: 0.5em;
 }

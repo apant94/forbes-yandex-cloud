@@ -1,8 +1,8 @@
 .footer__authors {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 0.313em;
   width: 50%;
   box-sizing: border-box;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 2.5em;
 }

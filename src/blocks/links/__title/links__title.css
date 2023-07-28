@@ -1,11 +1,11 @@
 .links__title {
-  font-size: 42.8px;
+  font-size: var(--title-size);
   font-style: normal;
   font-weight: 400;
   line-height: 0.935;
-  letter-spacing: -0.7px;
+  letter-spacing: -0.016em;
   text-transform: uppercase;
-  max-width: 800px;
-  padding: 3px 0 7px;
+  width: 18.7em;
+  padding: var(--title-padding);
   margin: 0;
 }

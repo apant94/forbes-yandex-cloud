@@ -1,7 +1,7 @@
 .links {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  width: calc(100% - 40px - 40px);
-  margin: 100px auto;
+  gap: 3.91em;
+  width: var(--sector-width);
+  margin: var(--sector-margin) auto;
 }
