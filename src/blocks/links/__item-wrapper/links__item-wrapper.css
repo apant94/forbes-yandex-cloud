@@ -1,6 +1,6 @@
 .links__item-wrapper {
-  width: calc(100% - 40px - 40px);
-  padding: 20px 20px 15px;
+  width: calc(100% - 6.25em);
+  padding: 1.56em 1.56em 1.17em;
   box-sizing: border-box;
   border-right: 1px solid var(--primary-color);
 }

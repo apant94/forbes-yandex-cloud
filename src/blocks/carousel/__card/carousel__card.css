@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
-  width: calc(1200px / 3);
+  width: calc(100% / 3);
   border-right: 1px solid var(--primary-color);
 }
 

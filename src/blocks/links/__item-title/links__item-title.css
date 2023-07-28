@@ -1,8 +1,8 @@
 .links__item-title {
-  font-size: 20px;
+  font-size: var(--primary-text-size);
   font-weight: 400;
   line-height: 1.25;
-  letter-spacing: -0.2px;
-  padding: 4px 0 6px;
-  margin: 5px 0 0;
+  letter-spacing: -0.01em;
+  padding: var(--primary-text-padding);
+  margin: 0.25em 0 0;
 }
