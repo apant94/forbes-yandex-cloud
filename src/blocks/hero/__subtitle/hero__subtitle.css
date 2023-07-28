@@ -6,3 +6,13 @@
   margin: 0.524em 0 0;
   padding: var(--middle-text-padding);
 }
+
+@media screen and (max-width: 640px) {
+  .hero__subtitle {
+    padding: 0;
+    margin: 0.45em 0 0;
+    font-size: var(--mobile-middle-text-size);
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+}

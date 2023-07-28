@@ -12,6 +12,8 @@
   --small-text-size: 1.25em;
   --sector-width: calc(100% - 6.25em);
   --sector-margin: 7.812em;
+  --mobile-middle-text-size: 5em;
+  --mobile-small-text-size: 3em;
   --text-color: #262626;
   --dark-color: #262626;
   --primary-color: #5d81f7;
