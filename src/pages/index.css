@@ -23,6 +23,15 @@
 @import url(../blocks/lead/__digits/lead__digits.css);
 @import url(../blocks/lead/__digits-span/lead__digits-span.css);
 @import url(../blocks/lead/__text/_type/lead__text_type_digits.css);
+@import url(../blocks/lead/__chart/lead__chart.css);
+@import url(../blocks/lead/__chart-bars/lead__chart-bars.css);
+@import url(../blocks/lead/__chart-bar/lead__chart-bar.css);
+@import url(../blocks/lead/__chart-item/lead__chart-item.css);
+@import url(../blocks/lead/__chart-item/_size/lead__chart-item_size_middle.css);
+@import url(../blocks/lead/__chart-item/_size/lead__chart-item_size_large.css);
+@import url(../blocks/lead/__chart-sum/lead__chart-sum.css);
+@import url(../blocks/lead/__chart-years/lead__chart-years.css);
+@import url(../blocks/lead/__chart-year/lead__chart-year.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/__title/text__title.css);
 @import url(../blocks/text/__container/text__container.css);

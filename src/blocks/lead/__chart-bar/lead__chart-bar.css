@@ -1,0 +1,4 @@
+.lead__chart-bar {
+  list-style: none;
+  width: calc(100% / 3);
+}
