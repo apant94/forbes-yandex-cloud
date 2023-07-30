@@ -8,3 +8,11 @@
   box-sizing: border-box;
   padding: 0 2.5em 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__credit {
+    gap: 0.313em;
+    width: 100%;
+    padding: 0;
+  }
+}

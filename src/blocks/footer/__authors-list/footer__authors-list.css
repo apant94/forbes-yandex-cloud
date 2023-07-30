@@ -2,6 +2,6 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.25em;
   margin: 0;
 }
