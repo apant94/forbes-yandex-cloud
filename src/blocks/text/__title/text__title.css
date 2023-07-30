@@ -8,3 +8,13 @@
   padding: var(--title-padding);
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .text__title {
+    font-size: var(--mobile-title-size);
+    padding: var(--mobile-title-padding);
+    width: 100%;
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+}

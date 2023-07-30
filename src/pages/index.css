@@ -42,6 +42,7 @@
 @import url(../blocks/text/__sector-image/text__sector-image.css);
 @import url(../blocks/text/__article/text__article.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
+@import url(../blocks/text/__paragraph/_font/text__paragraph_font_large.css);
 @import url(../blocks/text/__article-image/text__article-image.css);
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__title/carousel__title.css);

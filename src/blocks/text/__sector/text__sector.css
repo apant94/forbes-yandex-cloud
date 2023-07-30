@@ -7,3 +7,11 @@
   height: 6.25em;
   border-bottom: 1px solid var(--primary-color);
 }
+
+@media screen and (max-width: 640px) {
+  .text__sector {
+    padding: 5em 5em 5em 0px;
+    gap: 3.75em;
+    height: auto;
+  }
+}

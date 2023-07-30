@@ -7,3 +7,13 @@
   width: 50%;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 640px) {
+  .text__article {
+    gap: 10em;
+    border-left: none;
+    padding: 0;
+    margin: 8.75em auto 0;
+    width: 100%;
+  }
+}

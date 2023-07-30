@@ -2,3 +2,11 @@
   display: flex;
   margin: 3.91em 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .text__container {
+    display: flex;
+    margin: 10em 0 0;
+    flex-direction: column;
+  }
+}
