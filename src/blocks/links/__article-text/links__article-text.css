@@ -8,3 +8,11 @@
   margin: 0;
   padding: 2.7em 2em 2.8em;
 }
+
+@media screen and (max-width: 640px) {
+  .links__article-text {
+    font-size: var(--mobile-primary-text-size);
+    padding: var(--mobile-primary-text-padding);
+    width: 100%;
+  }
+}

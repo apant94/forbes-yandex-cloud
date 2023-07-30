@@ -9,3 +9,11 @@
   border-right: 1px solid var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__card-title {
+    font-size: var(--mobile-primary-text-size);
+    line-height: 1.25;
+    padding: 0.45em 1em 0.55em;
+  }
+}

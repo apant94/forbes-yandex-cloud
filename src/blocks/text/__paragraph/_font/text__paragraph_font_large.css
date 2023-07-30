@@ -1,0 +1,7 @@
+@media screen and (max-width: 640px) {
+  .text__paragraph_font_large {
+    padding: 0.2em 0 0.3em;
+    letter-spacing: -0.01em;
+    font-size: var(--mobile-primary-text-size);
+  }
+}

@@ -3,3 +3,9 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media screen and (max-width: 640px) {
+  .lead__digits-container {
+    gap: 2.5em;
+  }
+}

@@ -5,3 +5,11 @@
   width: var(--sector-width);
   margin: var(--sector-margin) auto;
 }
+
+@media screen and (max-width: 640px) {
+  .links {
+    width: var(--mobile-sector-width);
+    margin: var(--mobile-sector-margin) auto;
+    gap: 0;
+  }
+}

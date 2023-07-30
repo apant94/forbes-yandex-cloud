@@ -5,3 +5,11 @@
   border: 1px solid var(--primary-color);
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .links__container {
+    flex-direction: column;
+    gap: 5em;
+    border: none;
+  }
+}

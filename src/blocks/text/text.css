@@ -2,3 +2,10 @@
   width: var(--sector-width);
   margin: var(--sector-margin) auto 0;
 }
+
+@media screen and (max-width: 640px) {
+  .text {
+    width: var(--mobile-sector-width);
+    margin: var(--mobile-sector-margin) auto 0;
+  }
+}

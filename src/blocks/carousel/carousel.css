@@ -5,3 +5,14 @@
   width: var(--sector-width);
   margin: var(--sector-margin) auto 0;
 }
+
+@media screen and (max-width: 640px) {
+  .carousel {
+    gap: 10em;
+    width: 100%;
+    margin: var(--mobile-sector-margin) auto 0;
+    overflow: hidden;
+    padding: 0 5em 0;
+    box-sizing: border-box;
+  }
+}

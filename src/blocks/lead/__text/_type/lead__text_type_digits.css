@@ -1,3 +1,11 @@
 .lead__text_type_digits {
   width: 17.77em;
 }
+
+@media screen and (max-width: 640px) {
+  .lead__text_type_digits {
+    width: 100%;
+    font-size: 4em;
+    padding: 0.25em 0 0.375em;
+  }
+}

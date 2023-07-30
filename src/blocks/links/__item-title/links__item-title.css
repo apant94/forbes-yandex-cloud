@@ -6,3 +6,9 @@
   padding: var(--primary-text-padding);
   margin: 0.25em 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .links__item-title {
+    font-size: var(--mobile-primary-text-size);
+  }
+}

@@ -6,3 +6,9 @@
   list-style: none;
   padding: var(--primary-text-padding);
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__paragraph {
+    font-size: var(--mobile-primary-text-size);
+  }
+}

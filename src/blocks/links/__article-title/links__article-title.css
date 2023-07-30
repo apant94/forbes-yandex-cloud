@@ -8,3 +8,12 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .links__article-title {
+    font-size: var(--mobile-primary-text-size);
+    line-height: 1.25;
+    padding: var(--mobile-primary-text-padding);
+    width: 100%;
+  }
+}

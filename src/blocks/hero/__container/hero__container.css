@@ -5,3 +5,11 @@
   padding: 3.125em;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 640px) {
+  .hero__container {
+    order: 1;
+    width: 100%;
+    padding: 5em;
+  }
+}

@@ -7,3 +7,10 @@
   border-bottom: 1px solid var(--primary-color);
   margin: 1.25em 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .links__item-sector {
+    font-size: 4em;
+    margin: 1.25em 0 0;
+  }
+}

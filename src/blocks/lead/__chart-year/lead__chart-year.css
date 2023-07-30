@@ -8,3 +8,10 @@
   margin: 0;
   padding: var(--primary-text-padding);
 }
+
+@media screen and (max-width: 640px) {
+  .lead__chart-year {
+    font-size: 4em;
+    padding: 0.25em 0 0.375em;
+  }
+}

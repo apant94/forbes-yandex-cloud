@@ -5,3 +5,9 @@
   letter-spacing: -0.01em;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .hero__sector-name {
+    font-size: var(--mobile-small-text-size);
+  }
+}

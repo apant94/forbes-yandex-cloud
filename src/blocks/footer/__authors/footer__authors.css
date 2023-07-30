@@ -6,3 +6,10 @@
   box-sizing: border-box;
   padding: 0 0 0 2.5em;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__authors {
+    width: 100%;
+    padding: 0;
+  }
+}

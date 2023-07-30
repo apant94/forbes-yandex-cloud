@@ -7,3 +7,10 @@
   border: 1px solid var(--primary-color);
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__cards {
+    width: 270em;
+    height: 90em;
+  }
+}

@@ -8,3 +8,15 @@
 .links__item-wrapper:last-child {
   border: none;
 }
+
+@media screen and (max-width: 640px) {
+  .links__item-wrapper {
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 5em 5em 3.75em;
+  }
+
+  .links__item-wrapper:last-child {
+    border: 1px solid var(--primary-color);
+  }
+}

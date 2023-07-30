@@ -3,3 +3,10 @@
   top: 3.125em;
   left: 3.125em;
 }
+
+@media screen and (max-width: 640px) {
+  .header {
+    top: 5em;
+    left: 5em;
+  }
+}

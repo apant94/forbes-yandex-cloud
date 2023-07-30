@@ -1,3 +1,9 @@
 .lead__chart-item_size_middle {
   height: 19.53em;
 }
+
+@media screen and (max-width: 640px) {
+  .lead__chart-item_size_middle {
+    height: 37.5em;
+  }
+}

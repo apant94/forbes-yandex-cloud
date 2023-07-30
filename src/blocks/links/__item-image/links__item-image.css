@@ -4,3 +4,9 @@
   padding-bottom: 61.1%;
   height: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .links__item-image {
+    padding-bottom: 56.3%;
+  }
+}

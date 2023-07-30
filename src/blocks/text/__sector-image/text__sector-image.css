@@ -2,3 +2,10 @@
   height: 6.25em;
   width: 6.25em;
 }
+
+@media screen and (max-width: 640px) {
+  .text__sector-image {
+    height: 15em;
+    width: 15em;
+  }
+}

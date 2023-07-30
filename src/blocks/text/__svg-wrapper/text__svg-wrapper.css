@@ -2,3 +2,10 @@
   width: 6.387em;
   height: 6.387em;
 }
+
+@media screen and (max-width: 640px) {
+  .text__svg-wrapper {
+    width: 15em;
+    height: 15em;
+  }
+}
