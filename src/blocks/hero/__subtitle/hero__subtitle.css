@@ -11,7 +11,7 @@
   .hero__subtitle {
     padding: 0;
     margin: 0.45em 0 0;
-    font-size: var(--mobile-middle-text-size);
+    font-size: var(--mobile-primary-text-size);
     line-height: 1.25;
     letter-spacing: -0.01em;
   }

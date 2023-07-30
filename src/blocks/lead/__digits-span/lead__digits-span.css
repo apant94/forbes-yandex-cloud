@@ -7,3 +7,9 @@
   margin: 0 0 0 0.524em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 640px) {
+  .lead__digits-span {
+    font-size: 0.23em;
+  }
+}

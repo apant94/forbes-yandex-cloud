@@ -2,3 +2,9 @@
   height: 16.02em;
   background: var(--yc-primary-gradient);
 }
+
+@media screen and (max-width: 640px) {
+  .lead__chart-item {
+    height: 31.25em;
+  }
+}
