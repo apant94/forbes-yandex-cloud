@@ -2,3 +2,10 @@
   display: flex;
   height: min-content;
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__article {
+    flex-direction: column;
+    gap: 10em;
+  }
+}

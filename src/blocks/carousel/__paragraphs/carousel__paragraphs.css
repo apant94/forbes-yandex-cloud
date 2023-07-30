@@ -11,3 +11,14 @@
   border-right: 1px solid var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__paragraphs {
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.75em;
+    width: 100%;
+    border: none;
+  }
+}

@@ -5,3 +5,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 640px) {
+  .carousel__card-list {
+    gap: 0;
+    padding: 1em 5em 5em;
+  }
+}
