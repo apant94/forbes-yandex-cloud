@@ -4,6 +4,7 @@
   justify-content: space-between;
   text-decoration: none;
   width: calc(100% / 3);
+  box-sizing: border-box;
   border-right: 1px solid var(--primary-color);
 }
 
