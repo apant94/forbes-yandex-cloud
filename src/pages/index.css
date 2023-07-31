@@ -46,6 +46,7 @@
 @import url(../blocks/text/__article-image/text__article-image.css);
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__title/carousel__title.css);
+@import url(../blocks/carousel/__container/carousel__container.css);
 @import url(../blocks/carousel/__cards/carousel__cards.css);
 @import url(../blocks/carousel/__card/carousel__card.css);
 @import url(../blocks/carousel/__card-title/carousel__card-title.css);

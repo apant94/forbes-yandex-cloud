@@ -7,5 +7,7 @@
   .carousel__article {
     flex-direction: column;
     gap: 10em;
+    box-sizing: border-box;
+    padding: 0 5em;
   }
 }

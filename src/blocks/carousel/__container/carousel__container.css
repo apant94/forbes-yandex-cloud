@@ -1,0 +1,5 @@
+.carousel__container {
+  overflow-x: scroll;
+  width: calc(100% - 5em);
+  transform: translateX(5em);
+}

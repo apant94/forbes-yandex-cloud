@@ -12,7 +12,8 @@
 @media screen and (max-width: 640px) {
   .carousel__title {
     font-size: var(--mobile-title-size);
-    padding: var(--mobile-title-padding);
+    padding: 0.1em 0.7em 0.245em;
+    box-sizing: border-box;
     line-height: 1.05;
     letter-spacing: 0;
     width: 100%;
