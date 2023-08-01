@@ -46,6 +46,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'metallurgy.html',
+      template: './src/metallurgy.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
