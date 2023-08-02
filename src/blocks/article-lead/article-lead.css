@@ -1,0 +1,6 @@
+.article-lead {
+  width: var(--sector-width);
+  margin: var(--sector-margin) auto 0;
+  display: flex;
+  gap: 19.53em;
+}

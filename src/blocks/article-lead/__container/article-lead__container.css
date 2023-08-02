@@ -1,0 +1,6 @@
+.article-lead__container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 1px solid var(--primary-color);
+}

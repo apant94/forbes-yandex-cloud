@@ -1,0 +1,6 @@
+.article-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 1.56em;
+  padding: 1.56em;
+}
