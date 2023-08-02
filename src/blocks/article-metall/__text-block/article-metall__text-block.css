@@ -1,0 +1,8 @@
+.article-metall__text-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-area: text2;
+  height: min-content;
+  gap: 1.56em;
+}

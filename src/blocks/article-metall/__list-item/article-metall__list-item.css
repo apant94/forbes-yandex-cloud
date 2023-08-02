@@ -1,4 +1,4 @@
-.article-frame__list-item {
+.article-metall__list-item {
   list-style: none;
   font-size: var(--small-text-size);
   font-weight: 400;
@@ -8,7 +8,7 @@
   padding: 0 0 0 1.3em;
 }
 
-.article-frame__list-item::before {
+.article-metall__list-item::before {
   content: '';
   background-image: url(../../../images/carousel-arrow.svg);
   height: 1em;
