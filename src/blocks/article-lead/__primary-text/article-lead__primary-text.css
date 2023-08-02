@@ -6,4 +6,5 @@
   letter-spacing: -0.01em;
   margin: 0;
   border-bottom: 1px solid var(--primary-color);
+  grid-area: primary;
 }
