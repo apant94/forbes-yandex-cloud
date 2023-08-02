@@ -1,3 +1,20 @@
 .article-header {
-  
+  width: var(--sector-width);
+  margin: 3.125em auto 0;
+  display: flex;
+  padding: 3.125em;
+  justify-content: space-between;
+  border: 1px solid var(--primary-color);
+  background: var(--yc-primary-gradient);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header {
+    flex-direction: column;
+    width: var(--mobile-sector-width);
+    margin: 5em auto 0;
+    padding: 5em;
+    gap: 5em;
+  }
 }

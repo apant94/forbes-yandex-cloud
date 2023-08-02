@@ -1,0 +1,15 @@
+.article-header__wrapper {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.56em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__wrapper {
+    width: 100%;
+    order: 1;
+    position: relative;
+  }
+}
