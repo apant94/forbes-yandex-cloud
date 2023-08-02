@@ -1,0 +1,9 @@
+.article-frame_border_all {
+  grid-area: frame3;
+  border: 1px solid var(--primary-color);
+  gap: 0.78em;
+}
+
+.article-frame_border_all:nth-child(2n) {
+  grid-area: frame4;
+}

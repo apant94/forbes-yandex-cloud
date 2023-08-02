@@ -1,0 +1,4 @@
+.article-frame__text_border_bottom {
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid var(--primary-color);
+}

@@ -1,4 +1,4 @@
-.article-lead__primary-text {
+.article-metall__primary-text {
   font-size: var(--primary-text-size);
   padding: 0.2em 0 0.8em;
   font-weight: 400;
@@ -6,4 +6,5 @@
   letter-spacing: -0.01em;
   margin: 0;
   border-bottom: 1px solid var(--primary-color);
+  grid-area: primary;
 }
