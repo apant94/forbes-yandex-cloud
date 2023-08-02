@@ -1,0 +1,4 @@
+.article-quote__speaker {
+  display: flex;
+  gap: 1.56em;
+}

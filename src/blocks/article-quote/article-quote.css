@@ -1,0 +1,5 @@
+.article-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 1.56em;
+}

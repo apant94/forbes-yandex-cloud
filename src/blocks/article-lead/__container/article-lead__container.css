@@ -3,4 +3,5 @@
   flex-direction: column;
   width: 20%;
   border: 1px solid var(--primary-color);
+  height: min-content;
 }
