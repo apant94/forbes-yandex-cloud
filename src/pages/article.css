@@ -9,13 +9,17 @@
 @import url(../blocks/article-metall/__primary-text/article-metall__primary-text.css);
 @import url(../blocks/article-metall/__text/article-metall__text.css);
 @import url(../blocks/article-metall/__text/_width/article-metall__text_width_thin.css);
+@import url(../blocks/article-metall/__text/_order/article-metall__text_order_last.css);
 @import url(../blocks/article-frame/article-frame.css);
 @import url(../blocks/article-frame/_border/article-frame_border_bottom.css);
+@import url(../blocks/article-frame/_border/article-frame_border_all.css);
+@import url(../blocks/article-frame/_order/article-frame_order_last.css);
 @import url(../blocks/article-frame/__title/article-frame__title.css);
 @import url(../blocks/article-frame/__text/article-frame__text.css);
 @import url(../blocks/article-frame/__text/_border/article-frame__text_border_bottom.css);
 @import url(../blocks/article-frame/__blue-text/article-frame__blue-text.css);
 @import url(../blocks/article-frame/__list/article-frame__list.css);
+@import url(../blocks/article-frame/__list/_gap/article-frame__list_gap_smaller.css);
 @import url(../blocks/article-frame/__list-item/article-frame__list-item.css);
 @import url(../blocks/article-quote/article-quote.css);
 @import url(../blocks/article-quote/__block/article-quote__block.css);
