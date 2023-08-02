@@ -1,0 +1,6 @@
+@import url(../blocks/article-header/article-header.css);
+@import url(../blocks/article-header/__wrapper/article-header__wrapper.css);
+@import url(../blocks/article-header/__sector/article-header__sector.css);
+@import url(../blocks/article-header/__title/article-header__title.css);
+@import url(../blocks/article-header/__subtitle/article-header__subtitle.css);
+@import url(../blocks/article-header/__image/article-header__image.css);
