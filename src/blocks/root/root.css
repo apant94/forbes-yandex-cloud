@@ -6,6 +6,7 @@
   --title-size: 3.344em;
   --title-padding: 0.07em 0 0.163em;
   --small-text-size: 1.25em;
+  --article-small-text-padding: 0.25em 0 0.375em;
   --sector-width: calc(100% - 6.25em);
   --sector-margin: 7.812em;
   --mobile-primary-text-size: 5em;
