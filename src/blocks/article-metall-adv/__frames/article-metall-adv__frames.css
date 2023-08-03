@@ -1,0 +1,7 @@
+.article-metall-adv__frames {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  grid-area: frames;
+  margin: 0;
+}
