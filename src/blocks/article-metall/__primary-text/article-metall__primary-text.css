@@ -8,3 +8,12 @@
   border-bottom: 1px solid var(--primary-color);
   grid-area: primary;
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall__primary-text {
+    font-size: var(--mobile-primary-text-size);
+    padding: 0.2em 0 0.8em;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 0 0 1em;
+  }
+}

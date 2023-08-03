@@ -10,3 +10,10 @@
 .article-metall__container:nth-child(2n + 2) {
   grid-area: frame2;
 }
+
+/* убирает наслаивание бордеров на стыке двух контейнеров в мобилке */
+@media screen and (max-width: 640px) {
+  .article-metall__container:nth-child(2n + 2) {
+    border-top: none;
+  }
+}

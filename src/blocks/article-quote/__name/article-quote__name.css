@@ -8,3 +8,9 @@
   margin: 0;
   gap: 0.175em;
 }
+
+@media screen and (max-width: 640px) {
+  .article-quote__name {
+    font-size: var(--mobile-middle-text-size);
+  }
+}

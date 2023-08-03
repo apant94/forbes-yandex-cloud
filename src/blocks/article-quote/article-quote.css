@@ -4,3 +4,9 @@
   gap: 1.56em;
   grid-area: cite1;
 }
+
+@media screen and (max-width: 640px) {
+  .article-quote {
+    gap: 5em;
+  }
+}

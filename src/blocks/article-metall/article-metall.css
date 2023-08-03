@@ -27,3 +27,36 @@
     '. . . . .'
     '. . text3 . .';
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall {
+    width: var(--mobile-sector-width);
+    margin: var(--mobile-article-sector-margin) auto 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 10em min-content min-content 10em min-content 10em min-content 10em min-content 10em min-content 10em min-content 10em min-content 10em min-content 10em min-content 10em min-content;
+    grid-template-areas:
+      'primary'
+      '.'
+      'frame1'
+      'frame2'
+      '.'
+      'cite1'
+      '.'
+      'text1'
+      '.'
+      'image1'
+      '.'
+      'title1'
+      '.'
+      'text2'
+      '.'
+      'frame3'
+      '.'
+      'cite2'
+      '.'
+      'frame4'
+      '.'
+      'text3';
+  }
+}

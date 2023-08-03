@@ -2,3 +2,9 @@
   display: flex;
   gap: 1.56em;
 }
+
+@media screen and (max-width: 640px) {
+  .article-quote__speaker {
+    gap: 5em;
+  }
+}

@@ -6,3 +6,10 @@
   letter-spacing: -0.01em;
   padding: var(--article-small-text-padding);
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall__text {
+    font-size: var(--mobile-article-small-text-size);
+    padding: 0;
+  }
+}

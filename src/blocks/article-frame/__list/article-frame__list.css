@@ -5,3 +5,9 @@
   margin: 0;
   gap: 1.56em;
 }
+
+@media screen and (max-width: 640px) {
+  .article-frame__list {
+    gap: 2.5em;
+  }
+}

@@ -19,3 +19,9 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall__list-item {
+    font-size: var(--mobile-article-small-text-size);
+  }
+}

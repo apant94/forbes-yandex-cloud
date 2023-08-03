@@ -15,8 +15,10 @@
   --mobile-title-size: 7.15em;
   --mobile-title-padding: 0.1em 0 0.245em;
   --mobile-small-text-size: 3em;
+  --mobile-article-small-text-size: 4em;
   --mobile-sector-width: calc(100% - 10em);
   --mobile-sector-margin: 20em;
+  --mobile-article-sector-margin: 12.5em;
   --text-color: #262626;
   --dark-color: #262626;
   --primary-color: #5d81f7;
