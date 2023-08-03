@@ -44,3 +44,6 @@
 @import url(../blocks/article-metall-adv/__frames/article-metall-adv__frames.css);
 @import url(../blocks/article-metall-adv/__title/article-metall-adv__title.css);
 @import url(../blocks/article-metall-adv/__title-span/article-metall-adv__title-span.css);
+@import url(../blocks/article-links/article-links.css);
+@import url(../blocks/article-links/__title/article-links__title.css);
+@import url(../blocks/article-links/__container/article-links__container.css);
