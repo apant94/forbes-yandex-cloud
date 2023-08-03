@@ -5,3 +5,9 @@
   letter-spacing: -0.01em;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .article-frame__text {
+    font-size: var(--mobile-article-small-text-size);
+  }
+}

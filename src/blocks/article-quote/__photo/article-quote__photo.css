@@ -2,3 +2,10 @@
   height: 7.81em;
   width: 7.81em;
 }
+
+@media screen and (max-width: 640px) {
+  .article-quote__photo {
+    height: 15em;
+    width: 15em;
+  }
+}

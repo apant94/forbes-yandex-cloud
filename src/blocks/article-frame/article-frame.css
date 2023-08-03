@@ -4,3 +4,10 @@
   gap: 1.56em;
   padding: 1.56em;
 }
+
+@media screen and (max-width: 640px) {
+  .article-frame {
+    gap: 5em;
+    padding: 5em;
+  }
+}
