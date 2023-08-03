@@ -1,6 +1,6 @@
 .article-metall {
   width: var(--sector-width);
-  margin: var(--sector-margin) auto 0;
+  margin: var(--article-sector-margin) auto 0;
   display: grid;
   grid-template-columns: 20% 20.8% 38.3% 5.4% auto;
   grid-template-rows: 32.8em 3.125em min-content 8.672em 3.125em min-content 3.125em min-content 6.26em 10.16em 1.56em 53.13em 3.83em 0.86em min-content 4.69em min-content 4.69em min-content 4.69em min-content;

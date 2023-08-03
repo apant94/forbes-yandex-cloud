@@ -4,7 +4,3 @@
   gap: 1.56em;
   grid-area: cite1;
 }
-
-.article-quote:nth-child(2n + 2) {
-  grid-area: cite2;
-}

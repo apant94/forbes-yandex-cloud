@@ -1,0 +1,8 @@
+.article-links__container {
+  width: 67%;
+  display: flex;
+  border: 1px solid var(--primary-color);
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
