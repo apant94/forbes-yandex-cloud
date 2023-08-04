@@ -6,3 +6,14 @@
   list-style: none;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .article-links__container {
+    width: 170em;
+    border: none;
+  }
+
+  .article-links__container .links__item-wrapper:nth-child(2n) {
+    border-left: none;
+  }
+}

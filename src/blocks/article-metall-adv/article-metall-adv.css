@@ -14,3 +14,14 @@
     '. . .'
     '. frame3 .';
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall-adv {
+    width: var(--mobile-sector-width);
+    margin: var(--mobile-article-sector-margin) auto 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 10em min-content min-content 10em min-content 10em min-content;
+    grid-template-areas: 'image1' '.' 'frame1' 'frames' '.' 'cite1' '.' 'frame3';
+  }
+}

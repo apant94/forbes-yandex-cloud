@@ -8,3 +8,14 @@
   box-sizing: border-box;
   list-style: none;
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall-adv__frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5em;
+    padding: 5em;
+    height: auto;
+  }
+}
