@@ -4,5 +4,15 @@
   display: flex;
   flex-direction: column;
   gap: 3.125em;
-  padding: 0 0 3.125em;
+  /* padding: 0 0 3.125em; */
+}
+
+@media screen and (max-width: 640px) {
+  .article-links {
+    width: var(--mobile-sector-width);
+    margin: 10em 0 0;
+    gap: 10em;
+    padding: 0 0 12em;
+    width: 100%;
+  }
 }

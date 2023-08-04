@@ -5,3 +5,9 @@
   grid-area: frames;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .article-metall-adv__frames .article-metall-adv__frame {
+    gap: 1.2em;
+  }
+}
