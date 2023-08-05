@@ -1,0 +1,9 @@
+.article-header__wrapper_content_retail {
+  width: 75%;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__wrapper_content_retail {
+    width: 100%;
+  }
+}

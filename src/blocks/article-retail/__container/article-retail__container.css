@@ -1,0 +1,12 @@
+.article-retail__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-area: frame1;
+  border: 1px solid var(--primary-color);
+  height: min-content;
+}
+
+.article-retail__container:nth-child(2n + 2) {
+  grid-area: frame2;
+}
