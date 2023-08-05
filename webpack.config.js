@@ -50,6 +50,10 @@ module.exports = {
       filename: 'metallurgy.html',
       template: './src/metallurgy.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'retail.html',
+      template: './src/retail.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 

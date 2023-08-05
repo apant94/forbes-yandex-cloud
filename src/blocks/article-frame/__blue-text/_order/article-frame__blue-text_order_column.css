@@ -1,0 +1,4 @@
+.article-frame__blue-text_irder_column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,36 @@
+.article-retail {
+  width: var(--sector-width);
+  margin: var(--article-sector-margin) auto 0;
+  display: grid;
+  grid-template-columns: 20% 19.5% 37.3% 4.92% auto;
+  grid-template-rows: 38.7em 3.125em 8.3em 23.8em 3.125em 2em min-content 3.125em min-content;
+  grid-template-areas:
+    'frame1 . primary . .'
+    'frame1 . . . .'
+    'frame1 . cite1 . .'
+    'frame1 . cite1 . .'
+    'frame1 . . . .'
+    'frame1 . text1 . .'
+    '. . text1 . .'
+    '. . . . .'
+    '. . frame3 . .';
+  /* 'frame1 . cite1 . .'
+    '. . cite1 . .'
+    '. . . . .'
+    '. . text1 . .'
+    '. . . . .'
+    'image1 image1 image1 image1 image1'
+    '. . . . .'
+    'frame2 . title1 title1 .'
+    'frame2 . . . .'
+    'frame2 . text2 . .'
+    'frame2 . . . .'
+    '. . . . .'
+    '. . frame3 . .'
+    '. . . . .'
+    '. . cite2 . .'
+    '. . . . .'
+    '. . frame4 . .'
+    '. . . . .'
+    '. . text3 . .'; */
+}
