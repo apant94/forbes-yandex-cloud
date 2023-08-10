@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
-  margin: 0 auto;
-  background-color: var(--dark-color);
+  margin: var(--sector-margin) auto;
+  width: var(--sector-width);
+}
+
+@media screen and (max-width: 640px) {
+  .form {
+    margin: var(--mobile-sector-margin) auto;
+    width: var(--mobile-sector-width);
+  }
 }

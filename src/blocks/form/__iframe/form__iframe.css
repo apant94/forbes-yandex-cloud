@@ -1,7 +1,9 @@
 .form__iframe {
-  border: 1px solid var(--primary-color);
+  /* border: 1px solid var(--primary-color);
   padding: 4.26em 3.41em;
   box-sizing: border-box;
   width: 51.3%;
-  height: 700px !important;
+  height: 700px !important; */
+  width: 100%;
+  height: min-content !important;
 }

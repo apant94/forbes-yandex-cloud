@@ -1,0 +1,15 @@
+.form__subtitle {
+  font-size: var(--primary-text-size);
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 1em 0 2em;
+}
+
+@media screen and (max-width: 640px) {
+  .form__subtitle {
+    font-size: var(--mobile-primary-text-size);
+    letter-spacing: -0.01em;
+    margin: 1.25em 0 2em;
+    padding: var(--primary-text-padding);
+  }
+}
