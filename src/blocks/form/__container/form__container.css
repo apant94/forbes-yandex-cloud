@@ -1,0 +1,15 @@
+.form__container {
+  border: 1px solid var(--primary-color);
+  padding: 3.9em 3.13em;
+  box-sizing: border-box;
+  width: 43%;
+}
+
+@media screen and (max-width: 640px) {
+  .form__container {
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

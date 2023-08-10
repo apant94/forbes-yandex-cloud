@@ -1,0 +1,7 @@
+.article-retail__step {
+  display: flex;
+  gap: 1.56em;
+  border: 1px solid var(--primary-color);
+  list-style: none;
+  padding: 1.56em;
+}
