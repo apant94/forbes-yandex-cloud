@@ -1,0 +1,27 @@
+.article__list-item {
+  list-style: none;
+  font-size: var(--small-text-size);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  position: relative;
+  padding: 0 0 0 1.3em;
+}
+
+.article__list-item::before {
+  content: '';
+  background-image: url(../../../images/carousel-arrow.svg);
+  height: 1em;
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 1.2em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 640px) {
+  .article__list-item {
+    font-size: var(--mobile-article-small-text-size);
+  }
+}

@@ -1,0 +1,14 @@
+.article__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0.78em 0 0;
+  gap: 0.78em;
+  padding: 0.31em 0 0.47em;
+}
+
+@media screen and (max-width: 640px) {
+  .article__list {
+    gap: 5em;
+  }
+}

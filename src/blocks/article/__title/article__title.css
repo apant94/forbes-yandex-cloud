@@ -1,0 +1,17 @@
+.article__title {
+  font-size: var(--title-size);
+  padding: var(--title-padding);
+  font-weight: 400;
+  line-height: 0.93;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  width: 48%;
+  margin: 0 0 0.47em 11.45em;
+}
+
+@media screen and (max-width: 640px) {
+  .article__title {
+    font-size: 10.7em;
+    padding: 0 0.47em;
+  }
+}

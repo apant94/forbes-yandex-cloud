@@ -1,6 +1,8 @@
 .article-image {
   grid-area: image1;
-  width: 100%;
+  width: var(--sector-width);
+  margin: 0 auto;
+  display: flex;
   aspect-ratio: 2.5;
 }
 
@@ -9,5 +11,6 @@
     aspect-ratio: 0.75;
     object-fit: cover;
     object-position: -240px;
+    width: var(--mobile-sector-width);
   }
 }

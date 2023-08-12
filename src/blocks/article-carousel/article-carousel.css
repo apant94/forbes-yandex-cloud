@@ -1,0 +1,8 @@
+@media screen and (max-width: 640px) {
+  .article-carousel {
+    overflow-x: scroll;
+    transform: translateX(5em);
+    width: calc(100% - 5em);
+    grid-area: carousel1;
+  }
+}

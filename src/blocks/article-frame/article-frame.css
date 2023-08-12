@@ -1,13 +1,17 @@
 .article-frame {
   display: flex;
   flex-direction: column;
-  gap: 1.56em;
-  padding: 1.56em;
+  justify-content: space-between;
+  height: 28.1em;
+  width: 100%;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 @media screen and (max-width: 640px) {
   .article-frame {
-    gap: 5em;
-    padding: 5em;
+    height: 90em;
+    width: 25%;
+    border-right: 1px solid var(--primary-color);
+    border-bottom: none;
   }
 }

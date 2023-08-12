@@ -1,0 +1,6 @@
+.article-frame__title_type_frame {
+  list-style: none;
+  border: none;
+  padding: var(--primary-text-padding);
+  width: auto;
+}

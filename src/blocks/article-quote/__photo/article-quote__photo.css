@@ -1,11 +1,11 @@
 .article-quote__photo {
-  height: 7.81em;
-  width: 7.81em;
+  height: 3.9em;
+  width: 3.9em;
 }
 
 @media screen and (max-width: 640px) {
   .article-quote__photo {
-    height: 15em;
-    width: 15em;
+    height: 12.5em;
+    width: 12.5em;
   }
 }

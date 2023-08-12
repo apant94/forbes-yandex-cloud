@@ -3,10 +3,17 @@
   flex-direction: column;
   gap: 1.56em;
   grid-area: cite1;
+  border-left: 1px solid var(--primary-color);
+  padding: 0 0 0 1.56em;
+  width: 122%;
 }
 
 @media screen and (max-width: 640px) {
   .article-quote {
     gap: 5em;
+    padding: 0 5em;
+    transform: translateX(20px);
+    width: calc(100% - 5em);
+    box-sizing: border-box;
   }
 }

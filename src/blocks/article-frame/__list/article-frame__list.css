@@ -1,5 +1,5 @@
 .article-frame__list {
-  padding: 0;
+  padding: 0.31em 1.56em 1.56em;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 640px) {
   .article-frame__list {
-    gap: 2.5em;
+    padding: 1em 5em 5em;
   }
 }

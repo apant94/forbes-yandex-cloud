@@ -1,0 +1,4 @@
+.article-card__title_width_small {
+  width: min-content;
+  border-right: 1px solid var(--primary-color);
+}

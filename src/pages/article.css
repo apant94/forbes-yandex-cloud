@@ -19,7 +19,6 @@
 @import url(../blocks/article-frame/_order/article-frame_order_last.css);
 @import url(../blocks/article-frame/__title/article-frame__title.css);
 @import url(../blocks/article-frame/__text/article-frame__text.css);
-@import url(../blocks/article-frame/__text/_border/article-frame__text_border_bottom.css);
 @import url(../blocks/article-frame/__blue-text/article-frame__blue-text.css);
 @import url(../blocks/article-frame/__blue-text/_order/article-frame__blue-text_order_column.css);
 @import url(../blocks/article-frame/__blue-span/article-frame__blue-span.css);

@@ -1,3 +1,9 @@
 .article-frame_border_bottom {
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: none;
+}
+
+@media screen and (max-width: 640px) {
+  .article-frame_border_bottom {
+    border-right: none;
+  }
 }

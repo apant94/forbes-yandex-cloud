@@ -1,0 +1,10 @@
+.article-frame__text-block {
+  margin: 0;
+  padding: 0.31em 1.56em 1.56em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-frame__text-block {
+    padding: 1em 5em 5em;
+  }
+}

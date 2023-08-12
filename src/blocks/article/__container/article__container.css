@@ -1,0 +1,7 @@
+.article__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.9em;
+  margin-left: 38.36em;
+  width: 38.3%;
+}
