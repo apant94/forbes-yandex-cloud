@@ -11,5 +11,6 @@
 @media screen and (max-width: 640px) {
   .article-primary {
     font-size: var(--mobile-middle-text-size);
+    padding: 0.105em 0.7em 0.25em;
   }
 }

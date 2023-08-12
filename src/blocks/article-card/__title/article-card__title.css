@@ -1,15 +1,15 @@
-.article-text {
-  margin: 0;
+.article-card__title {
+  border-bottom: 1px solid var(--primary-color);
   font-size: var(--primary-text-size);
   font-weight: 400;
-  line-height: 1.25;
   letter-spacing: -0.01em;
-  padding: var(--primary-text-padding);
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.45em 1em 0.55em;
 }
 
 @media screen and (max-width: 640px) {
-  .article-text {
+  .article-card__title {
     font-size: var(--mobile-primary-text-size);
-    padding: 0.2em 1em 0.3em;
   }
 }

@@ -1,20 +1,23 @@
 .article_grid_metall {
   display: grid;
-  grid-template-columns: 30% 10.8% 38.3% 10% auto;
+  grid-template-columns: 30% 10.8% 38.3% auto;
   grid-template-rows: 18.75em 1.17em min-content 3.125em min-content 3.125em min-content 3.125em;
   grid-template-areas:
-    'frame1 . primary . .'
-    'frame1 . . . .'
-    'frame1 . text1 . .'
-    'frame1 . . . .'
-    'frame1 . cite1 cite1 .'
-    'frame1 . . . .'
-    'frame1 . text2 . .'
-    '. . . . .';
+    'frame1 . primary .'
+    'frame1 . . .'
+    'frame1 . text1 .'
+    'frame1 . . .'
+    'frame1 . cite1 .'
+    'frame1 . . .'
+    'frame1 . text2 .'
+    '. . . .';
 }
 
 @media screen and (max-width: 640px) {
   .article_grid_metall {
+    box-sizing: border-box;
+    margin: var(--mobile-sector-margin) auto 0;
+    width: 100%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:
@@ -25,7 +28,7 @@
       '.'
       'text1'
       '.'
-      'frame1'
+      'carousel1'
       '.'
       'cite1'
       '.'

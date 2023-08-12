@@ -1,0 +1,14 @@
+.article-card__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 1.17em 0 0;
+  gap: 0.78em;
+  padding: 0.31em 1.56em 1.95em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-card__list {
+    gap: 5em;
+  }
+}

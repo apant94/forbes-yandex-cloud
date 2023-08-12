@@ -1,0 +1,5 @@
+.article-card {
+  border: 1px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}

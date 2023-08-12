@@ -12,6 +12,6 @@
 @media screen and (max-width: 640px) {
   .article-framer {
     flex-direction: row;
-    width: 400%;
+    width: 360em;
   }
 }
