@@ -5,11 +5,13 @@
   grid-area: frame1;
   border: 1px solid var(--primary-color);
   height: min-content;
+  padding: 0;
+  margin: 0;
 }
 
-/* убирает наслаивание бордеров на стыке двух контейнеров в мобилке */
 @media screen and (max-width: 640px) {
-  .article-framer:nth-child(2n + 2) {
-    border-top: none;
+  .article-framer {
+    flex-direction: row;
+    width: 400%;
   }
 }

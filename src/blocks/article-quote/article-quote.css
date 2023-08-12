@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 1.56em;
   grid-area: cite1;
+  border-left: 1px solid var(--primary-color);
+  padding: 0 0 0 1.56em;
 }
 
 @media screen and (max-width: 640px) {

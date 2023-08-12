@@ -1,19 +1,15 @@
 .article-primary {
-  font-size: var(--primary-text-size);
-  padding: 0.2em 0 0.8em;
+  font-size: var(--middle-text-size);
+  padding: var(--middle-text-padding);
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.05;
   letter-spacing: -0.01em;
   margin: 0;
-  border-bottom: 1px solid var(--primary-color);
   grid-area: primary;
 }
 
 @media screen and (max-width: 640px) {
   .article-primary {
-    font-size: var(--mobile-primary-text-size);
-    padding: 0.2em 0 0.8em;
-    border-bottom: 1px solid var(--primary-color);
-    padding: 0 0 1em;
+    font-size: var(--mobile-middle-text-size);
   }
 }

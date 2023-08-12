@@ -1,5 +1,5 @@
 .article-frame__list {
-  padding: 0;
+  padding: 0.31em 1.56em 1.56em;
   display: flex;
   flex-direction: column;
   margin: 0;
