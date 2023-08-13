@@ -1,3 +1,10 @@
 .article-text_type_list {
   list-style: none;
 }
+
+@media screen and (max-width: 640px) {
+  .article-text_type_list {
+    font-size: var(--mobile-article-small-text-size);
+    padding: var(--article-small-text-padding);
+  }
+}

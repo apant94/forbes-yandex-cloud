@@ -5,3 +5,10 @@
   margin-left: 38.36em;
   width: 38.3%;
 }
+
+@media screen and (max-width: 640px) {
+  .article__container {
+    margin-left: 0;
+    width: 100%;
+  }
+}

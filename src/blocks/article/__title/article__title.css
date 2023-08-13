@@ -11,7 +11,9 @@
 
 @media screen and (max-width: 640px) {
   .article__title {
-    font-size: 10.7em;
-    padding: 0 0.47em;
+    font-size: var(--mobile-middle-text-size);
+    padding: 0.1em 0 0.24em 0;
+    margin: 0 0 0.7em 0;
+    width: 100%;
   }
 }

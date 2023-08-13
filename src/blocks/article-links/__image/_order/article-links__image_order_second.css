@@ -1,0 +1,9 @@
+.article-links__image_order_second {
+  background-image: url(../../../../images/article-links-image2.jpg);
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image_order_second {
+    background-image: url(../../../../images/mobile-article-links-image2.jpg);
+  }
+}
