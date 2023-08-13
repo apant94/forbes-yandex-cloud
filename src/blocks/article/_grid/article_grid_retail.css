@@ -1,0 +1,48 @@
+.article_grid_retail {
+  display: grid;
+  grid-template-columns: 30% 10.8% 38.3% auto;
+  grid-template-rows: 17.2em 1.17em min-content 3.125em min-content 3.125em min-content 3.125em min-content 3.125em min-content 3.125em min-content;
+  grid-template-areas:
+    'frame1 . primary .'
+    'frame1 . . .'
+    'frame1 . text1 .'
+    'frame1 . . .'
+    'frame1 . text2 .'
+    'frame1 . . .'
+    'frame1 . cite1 .'
+    'frame1 . . .'
+    'frame1 . text3 .'
+    '. . . .'
+    '. . text4 .'
+    '. . . .'
+    '. . card1 .';
+}
+
+@media screen and (max-width: 640px) {
+  .article_grid_retail {
+    box-sizing: border-box;
+    margin: var(--mobile-sector-margin) auto 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:
+      min-content 3.75em min-content 12.5em min-content 12.5em min-content 12.5em
+      min-content 12.5em min-content 12.5em min-content 12.5em min-content;
+    grid-template-areas:
+      'primary'
+      '.'
+      'text1'
+      '.'
+      'carousel1'
+      '.'
+      'text2'
+      '.'
+      'cite1'
+      '.'
+      'text3'
+      '.'
+      'text4'
+      '.'
+      'card1';
+  }
+}

@@ -1,5 +1,13 @@
+@import url(../blocks/article-header/article-header.css);
+@import url(../blocks/article-header/__wrapper/article-header__wrapper.css);
+@import url(../blocks/article-header/__wrapper/_content/article-header__wrapper_content_retail.css);
+@import url(../blocks/article-header/__sector/article-header__sector.css);
+@import url(../blocks/article-header/__title/article-header__title.css);
+@import url(../blocks/article-header/__subtitle/article-header__subtitle.css);
+@import url(../blocks/article-header/__image/article-header__image.css);
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/_grid/article_grid_metall.css);
+@import url(../blocks/article/_grid/article_grid_retail.css);
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__container/article__container.css);
 @import url(../blocks/article/__list/article__list.css);
@@ -8,6 +16,8 @@
 @import url(../blocks/article-text/article-text.css);
 @import url(../blocks/article-text/_grid/article-text_grid_first.css);
 @import url(../blocks/article-text/_grid/article-text_grid_second.css);
+@import url(../blocks/article-text/_grid/article-text_grid_third.css);
+@import url(../blocks/article-text/_grid/article-text_grid_fourth.css);
 @import url(../blocks/article-text/_type/article-text_type_list.css);
 @import url(../blocks/article-text/_padding/article-text_padding_abs.css);
 @import url(../blocks/article-carousel/article-carousel.css);
@@ -38,6 +48,7 @@
 @import url(../blocks/article-quote/__position/article-quote__position.css);
 @import url(../blocks/article-card/article-card.css);
 @import url(../blocks/article-card/_form/article-card_form_square.css);
+@import url(../blocks/article-card/_location/article-card_location_grid.css);
 @import url(../blocks/article-card/__title/article-card__title.css);
 @import url(../blocks/article-card/__title/_width/article-card__title_width_small.css);
 @import url(../blocks/article-card/__list/article-card__list.css);
