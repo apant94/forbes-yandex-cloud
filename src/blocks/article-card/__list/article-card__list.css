@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 640px) {
   .article-card__list {
-    gap: 5em;
+    gap: 0;
+    padding: 1em 5em 5em;
   }
 }

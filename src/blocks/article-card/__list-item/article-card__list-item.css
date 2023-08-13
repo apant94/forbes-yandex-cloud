@@ -24,5 +24,10 @@
 @media screen and (max-width: 640px) {
   .article-card__list-item {
     font-size: var(--mobile-article-small-text-size);
+    padding: 0.25em 0 0.375em 1.3em;
+  }
+
+  .article-card__list-item::before {
+    top: 0.48em;
   }
 }

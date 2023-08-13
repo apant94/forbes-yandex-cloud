@@ -10,9 +10,8 @@
 @media screen and (max-width: 640px) {
   .article-links {
     width: var(--mobile-sector-width);
-    margin: 10em 0 0;
+    margin: 10em auto 0;
     gap: 10em;
     padding: 0 0 12em;
-    width: 100%;
   }
 }

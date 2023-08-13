@@ -1,7 +1,0 @@
-@media screen and (max-width: 640px) {
-  .article-links__carousel {
-    overflow-x: scroll;
-    transform: translateX(5em);
-    width: calc(100% - 5em);
-  }
-}

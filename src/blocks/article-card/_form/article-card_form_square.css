@@ -2,3 +2,9 @@
   height: 36em;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 640px) {
+  .article-card_form_square {
+    height: 90em;
+  }
+}

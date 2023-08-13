@@ -22,7 +22,7 @@
     grid-template-columns: 100%;
     grid-template-rows:
       min-content 3.75em min-content 12.5em min-content 12.5em
-      min-content 12.5em min-content 12.5em;
+      min-content 12.5em min-content;
     grid-template-areas:
       'primary'
       '.'
@@ -32,7 +32,6 @@
       '.'
       'cite1'
       '.'
-      'text2'
-      '.';
+      'text2';
   }
 }

@@ -1,5 +1,5 @@
 .article-links__container {
-  width: 67%;
+  width: 100%;
   display: flex;
   border: 1px solid var(--primary-color);
   padding: 0;
@@ -9,11 +9,8 @@
 
 @media screen and (max-width: 640px) {
   .article-links__container {
-    width: 170em;
     border: none;
-  }
-
-  .article-links__container .links__item-wrapper:nth-child(2n) {
-    border-left: none;
+    flex-direction: column;
+    gap: 5em;
   }
 }
