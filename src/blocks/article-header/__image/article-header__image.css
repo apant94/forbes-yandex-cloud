@@ -1,5 +1,9 @@
 .article-header__image {
+  background-image: url(../../../images/article-header-image.png);
+  width: 42.2%;
   height: 37.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 640px) {

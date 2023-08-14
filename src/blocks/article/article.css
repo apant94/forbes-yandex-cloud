@@ -6,6 +6,6 @@
 @media screen and (max-width: 640px) {
   .article {
     width: var(--mobile-sector-width);
-    margin: var(--mobile-article-sector-margin) auto 0;
+    margin: 12.5em auto 0;
   }
 }
