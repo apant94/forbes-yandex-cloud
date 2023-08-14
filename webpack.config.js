@@ -54,6 +54,10 @@ module.exports = {
       filename: 'retail.html',
       template: './src/retail.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'banking.html',
+      template: './src/banking.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 

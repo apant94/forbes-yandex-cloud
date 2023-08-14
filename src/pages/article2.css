@@ -8,6 +8,7 @@
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/_grid/article_grid_metall.css);
 @import url(../blocks/article/_grid/article_grid_retail.css);
+@import url(../blocks/article/_grid/article_grid_banking.css);
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__container/article__container.css);
 @import url(../blocks/article/__list/article__list.css);
@@ -46,6 +47,7 @@
 @import url(../blocks/article-quote/__photo/article-quote__photo.css);
 @import url(../blocks/article-quote/__name/article-quote__name.css);
 @import url(../blocks/article-quote/__position/article-quote__position.css);
+@import url(../blocks/article-image/article-image.css);
 @import url(../blocks/article-card/article-card.css);
 @import url(../blocks/article-card/_form/article-card_form_square.css);
 @import url(../blocks/article-card/_location/article-card_location_grid.css);
