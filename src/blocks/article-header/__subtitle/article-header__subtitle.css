@@ -1,5 +1,6 @@
 .article-header__subtitle {
   font-size: var(--middle-text-size);
+  padding: var(--middle-text-padding);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: -0.01em;

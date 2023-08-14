@@ -1,0 +1,16 @@
+.article-header__logo {
+  position: absolute;
+  top: -0.1em;
+  left: -0.07em;
+  width: 28.28em;
+  height: 3.28em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__logo {
+    top: 5em;
+    left: 5em;
+    width: 90em;
+    height: 10em;
+  }
+}

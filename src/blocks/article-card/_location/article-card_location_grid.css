@@ -1,0 +1,9 @@
+.article-card_location_grid {
+  grid-area: card1;
+}
+
+@media screen and (max-width: 640px) {
+  .article-card_location_grid {
+    margin: 0 5em;
+  }
+}

@@ -16,7 +16,6 @@
 @media screen and (max-width: 640px) {
   .article_grid_metall {
     box-sizing: border-box;
-    margin: var(--mobile-sector-margin) auto 0;
     width: 100%;
     display: grid;
     grid-template-columns: 100%;

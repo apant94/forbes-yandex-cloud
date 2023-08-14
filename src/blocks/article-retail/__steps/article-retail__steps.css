@@ -1,8 +1,0 @@
-.article-retail__steps {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  grid-area: steps;
-  padding: 0;
-  margin: 0;
-}
