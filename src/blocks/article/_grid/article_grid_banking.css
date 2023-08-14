@@ -29,7 +29,7 @@
     grid-template-columns: 100%;
     grid-template-rows:
       min-content 3.75em min-content 12.5em min-content 12.5em min-content 12.5em
-      min-content 12.5em min-content 12.5em min-content 12.5em min-content;
+      min-content 12.5em min-content 12.5em min-content 12.5em min-content 12.5em min-content;
     grid-template-areas:
       'primary'
       '.'
@@ -37,14 +37,16 @@
       '.'
       'carousel1'
       '.'
+      'cite1'
+      '.'
       'text2'
       '.'
-      'cite1'
+      'card1'
       '.'
       'text3'
       '.'
       'text4'
       '.'
-      'card1';
+      'cite2';
   }
 }
