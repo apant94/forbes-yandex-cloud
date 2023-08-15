@@ -1,0 +1,20 @@
+.slider__list {
+  width: 100%;
+  height: 28.4em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.slider__list.grab {
+  cursor: grab;
+}
+
+.slider__list.grabbing {
+  cursor: grabbing;
+}
+
+@media screen and (max-width: 640px) {
+  .slider__list {
+    height: 90.5em;
+  }
+}

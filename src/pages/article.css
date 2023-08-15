@@ -12,7 +12,6 @@
 @import url(../blocks/article/_margin/article_margin_abs.css);
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__container/article__container.css);
-@import url(../blocks/article/__container/_width/article__container_width_larger.css);
 @import url(../blocks/article/__list/article__list.css);
 @import url(../blocks/article/__list-item/article__list-item.css);
 @import url(../blocks/article/__text-block/article__text-block.css);
@@ -25,7 +24,6 @@
 @import url(../blocks/article-text/_type/article-text_type_list.css);
 @import url(../blocks/article-text/_padding/article-text_padding_abs.css);
 @import url(../blocks/article-carousel/article-carousel.css);
-@import url(../blocks/article-carousel/_screen/article-carousel_screen_desktop.css);
 @import url(../blocks/article-framer/article-framer.css);
 @import url(../blocks/article-framer/_order/article-framer_order_second.css);
 @import url(../blocks/article-framer/_flex/article-framer_flex_row.css);
@@ -61,15 +59,16 @@
 @import url(../blocks/article-card/__title/_width/article-card__title_width_small.css);
 @import url(../blocks/article-card/__list/article-card__list.css);
 @import url(../blocks/article-card/__list-item/article-card__list-item.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__list/slider__list.css);
 @import url(../blocks/article-links/article-links.css);
 @import url(../blocks/article-links/__title/article-links__title.css);
 @import url(../blocks/article-links/__container/article-links__container.css);
 @import url(../blocks/article-links/__image/article-links__image.css);
 @import url(../blocks/article-links/__image/_order/article-links__image_order_second.css);
 
-.slider {
+/* .slider {
   position: relative;
-  height: 200px;
   width: 58%;
   margin: 1.56em 0 3.9em 41.41em;
   user-select: none;
@@ -77,41 +76,29 @@
   box-sizing: border-box;
 }
 
-.slider img {
-  poiner-events: none;
-  box-sizing: border-box;
-}
-
-.slider-list {
-  width: 400px;
-  height: 200px;
+.slider__list {
+  width: 100%;
+  height: 28.4em;
   overflow: hidden;
   box-sizing: border-box;
 }
 
-.slider-list.grab {
+@media screen and (max-width: 640px) {
+  .slider {
+    width: calc(100% - 5em);
+    transform: translateX(5em);
+    margin: 5em 0 12em;
+  }
+
+  .slider__list {
+    height: 90.5em;
+  }
+}
+
+.slider__list.grab {
   cursor: grab;
-  box-sizing: border-box;
 }
 
-.slider-list.grabbing {
+.slider__list.grabbing {
   cursor: grabbing;
-  box-sizing: border-box;
-}
-
-.slider-track {
-  display: flex;
-  box-sizing: border-box;
-}
-
-.slide {
-  width: 200px;
-  height: 200px;
-  flex-shrink: 0;
-  font-size: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #000;
-  box-sizing: border-box;
-}
+} */

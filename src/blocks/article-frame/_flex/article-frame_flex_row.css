@@ -8,3 +8,9 @@
 .article-frame_flex_row:last-child {
   border-right: none;
 }
+
+@media screen and (max-width: 640px) {
+  .article-frame_flex_row {
+    padding: 1.25em 5em 2.5em;
+  }
+}

@@ -22,7 +22,6 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "core-js": "^3.31.1",
-    "flickity": "^3.0.0"
+    "core-js": "^3.31.1"
   }
 }
