@@ -9,6 +9,7 @@
 @import url(../blocks/article/_grid/article_grid_metall.css);
 @import url(../blocks/article/_grid/article_grid_retail.css);
 @import url(../blocks/article/_grid/article_grid_banking.css);
+@import url(../blocks/article/_margin/article_margin_abs.css);
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__container/article__container.css);
 @import url(../blocks/article/__list/article__list.css);
@@ -25,10 +26,12 @@
 @import url(../blocks/article-carousel/article-carousel.css);
 @import url(../blocks/article-framer/article-framer.css);
 @import url(../blocks/article-framer/_order/article-framer_order_second.css);
+@import url(../blocks/article-framer/_flex/article-framer_flex_row.css);
 @import url(../blocks/article-frame/article-frame.css);
 @import url(../blocks/article-frame/_border/article-frame_border_bottom.css);
 @import url(../blocks/article-frame/_border/article-frame_border_all.css);
 @import url(../blocks/article-frame/_order/article-frame_order_last.css);
+@import url(../blocks/article-frame/_flex/article-frame_flex_row.css);
 @import url(../blocks/article-frame/__title/article-frame__title.css);
 @import url(../blocks/article-frame/__title/_type/article-frame__title_type_frame.css);
 @import url(../blocks/article-frame/__text-block/article-frame__text-block.css);
@@ -56,8 +59,46 @@
 @import url(../blocks/article-card/__title/_width/article-card__title_width_small.css);
 @import url(../blocks/article-card/__list/article-card__list.css);
 @import url(../blocks/article-card/__list-item/article-card__list-item.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__list/slider__list.css);
 @import url(../blocks/article-links/article-links.css);
 @import url(../blocks/article-links/__title/article-links__title.css);
 @import url(../blocks/article-links/__container/article-links__container.css);
 @import url(../blocks/article-links/__image/article-links__image.css);
 @import url(../blocks/article-links/__image/_order/article-links__image_order_second.css);
+
+/* .slider {
+  position: relative;
+  width: 58%;
+  margin: 1.56em 0 3.9em 41.41em;
+  user-select: none;
+  touch-action: pan-y;
+  box-sizing: border-box;
+}
+
+.slider__list {
+  width: 100%;
+  height: 28.4em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+  .slider {
+    width: calc(100% - 5em);
+    transform: translateX(5em);
+    margin: 5em 0 12em;
+  }
+
+  .slider__list {
+    height: 90.5em;
+  }
+}
+
+.slider__list.grab {
+  cursor: grab;
+}
+
+.slider__list.grabbing {
+  cursor: grabbing;
+} */

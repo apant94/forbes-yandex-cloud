@@ -1,0 +1,5 @@
+.article_margin_abs {
+  width: 100%;
+  margin: var(--article-sector-margin) 0 0;
+  overflow-x: hidden;
+}

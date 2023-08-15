@@ -328,12 +328,54 @@
           alt="Изображение офиса"
           class="article-image"
         />
-        <section class="article">
+        <section class="article article_margin_abs">
           <div class="article__container">
             <p class="article-text article-text_padding_abs">
               Преимущества реализации одного проекта на базе машинного обучения
               в облаке в сравнении с разработкой внутри корпоративной сети:
             </p>
+          </div>
+          <div class="slider">
+            <div class="slider__list">
+              <ul class="article-framer article-framer_flex_row">
+                <li class="article-frame article-frame_flex_row">
+                  <p class="article-frame__blue-text">
+                    1<span class="article-frame__blue-span">день</span>
+                  </p>
+                  <p class="article-frame__text">
+                    против 5–10 дней на собственных серверах — время выделения
+                    серверных мощностей и первичная настройка серверов в облаке
+                  </p>
+                </li>
+                <li class="article-frame article-frame_flex_row">
+                  <p class="article-frame__blue-text">
+                    15-20<span class="article-frame__blue-span">%</span>
+                  </p>
+                  <p class="article-frame__text">
+                    сокращение времени создания и тюнинг ML-модели, разработка
+                    ПО и тестирование в облаке
+                  </p>
+                </li>
+                <li class="article-frame article-frame_flex_row">
+                  <p class="article-frame__blue-text">
+                    40-50<span class="article-frame__blue-span">%</span>
+                  </p>
+                  <p class="article-frame__text">
+                    уменьшение времени развертывания и запуска веб-приложения
+                    или сайта в облаке (деплой)
+                  </p>
+                </li>
+                <li class="article-frame article-frame_flex_row">
+                  <p class="article-frame__blue-text">
+                    -18<span class="article-frame__blue-span">%</span>
+                  </p>
+                  <p class="article-frame__text">
+                    составляет разница в продолжительности проекта в пользу
+                    разработки на облачной платформе.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="article__container">
             <p class="article-text article-text_padding_abs">
@@ -376,250 +418,6 @@
             </div>
           </div>
         </section>
-        <!-- <section class="article-metall">
-          <h2 class="article-metall__title">
-            Облачная среда для индустриального центра компетенций
-          </h2>
-          <div class="article-metall__text-block">
-            <p class="article-metall__text">
-              Наряду с вендорскими решениями «Норникель» использует несколько
-              специализированных систем собственной разработки. Кроме того, с
-              2022 года компания занимается созданием программных решений в
-              рамках индустриальных центров компетенций (ИЦК) «Металлургия» и
-              «Экология». Рабочие группы ИТ-специалистов из крупнейших компаний
-              отрасли разрабатывают новые программные продукты для нужд
-              индустрии. В ИЦК «Металлургия» «Норникель» ведет следующие
-              проекты:
-            </p>
-            <ul class="article-metall__list">
-              <li class="article-metall__list-item">
-                Горно-геологическая информационная система
-              </li>
-              <li class="article-metall__list-item">АСУ Горное планирование</li>
-              <li class="article-metall__list-item">
-                Диспетчеризация подземных горных работ
-              </li>
-            </ul>
-            <div class="article-quote">
-              <blockquote class="article-quote__block">
-                <p class="article-quote__text">
-                  «Мы не ИТ-компания, и наша цель – наиболее эффективно и быстро
-                  автоматизировать бизнес-процессы, используя готовые решения,
-                  которые можно приобрести у участников рынка. В то же время в
-                  металлургии много проектов, не похожих на другие индустрии,
-                  поэтому в последнее время мы все чаще занимаемся собственной
-                  разработкой – для внутренних задач и для задач ИЦК. Пример
-                  подхода к разработке ИТ-продуктов для ИЦК «Металлургия», при
-                  котором в кратчайшие сроки необходимо организовать работу
-                  более 100 разработчиков, показал практическую незаменимость
-                  выстраивания процессов на облачной инфраструктуре».
-                </p>
-              </blockquote>
-              <div class="article-quote__speaker">
-                <img
-                  src="<%=require('./images/article-speaker-parasina.jpg')%>"
-                  alt="Алексей Парасына"
-                  class="article-quote__photo"
-                />
-                <p class="article-quote__name">
-                  Алексей Парасына<span class="article-quote__position"
-                    >директор по промышленной автоматизации и метрологии
-                    «Норникеля», генеральный директор «Норсофт»</span
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="article-frame article-frame_border_all">
-            <h3 class="article-frame__title">Результаты перехода в облако:</h3>
-            <ul class="article-frame__list article-frame__list_gap_smaller">
-              <li class="article-frame__list-item">
-                В среднем вдвое сократились сроки на создание моделей,
-                разработку ПО и тестирование в собственной инфраструктуре облака
-                – от месяца до 15–16 дней в зависимости от сложности задачи.
-              </li>
-              <li class="article-frame__list-item">
-                Команда разработки стала успевать выполнять большой поток
-                бизнес-задач без увеличения численности, который сложно было
-                реализовать старыми подходами.
-              </li>
-              <li class="article-frame__list-item">
-                DevOps-инженеры получили доступ к современным технологиям и
-                инструментам, многие процессы и проекты специалисты успешно
-                реализуют самостоятельно, без помощи облачного провайдера.
-              </li>
-            </ul>
-          </div>
-          <div class="article-quote article-quote_order_second">
-            <blockquote class="article-quote__block">
-              <p class="article-quote__text">
-                «Сегодня мы работаем над внедрением платформы DevSecOps, которая
-                в сочетании с облачной инфраструктурой Яндекса должна
-                значительно сократить время проверок на этапе релиза и еще
-                больше ускорить процесс разработки. В том числе разрабатываем
-                инструменты для прозрачного отслеживания задач и багов в рамках
-                взаимодействия облачной и корпоративной сред».
-              </p>
-            </blockquote>
-            <div class="article-quote__speaker">
-              <img
-                src="<%=require('./images/article-speaker-manikhin.jpg')%>"
-                alt="Алексей Манихин"
-                class="article-quote__photo"
-              />
-              <p class="article-quote__name">
-                Алексей Манихин<span class="article-quote__position"
-                  >директор по ИТ-стратегии и развитию «Норникеля»</span
-                >
-              </p>
-            </div>
-          </div>
-          <div
-            class="article-frame article-frame_border_all article-frame_order_last"
-          >
-            <h3 class="article-frame__title">
-              Безопасность платформы Yandex Cloud. Компания:
-            </h3>
-            <ul class="article-frame__list article-frame__list_gap_smaller">
-              <li class="article-frame__list-item">
-                предоставляет всю информацию о внутреннем устройстве платформы и
-                действующих процессах.
-              </li>
-              <li class="article-frame__list-item">
-                проводит регулярные внутренние и внешние аудиты, чтобы оценить
-                соответствие платформы стандартам и требованиям.
-              </li>
-              <li class="article-frame__list-item">
-                обеспечивает безопасность на всех этапах разработки и
-                предоставления сервисов.
-              </li>
-            </ul>
-          </div>
-          <p
-            class="article-metall__text article-metall__text_width_thin article-metall__text_order_last"
-          >
-            Помимо разработки, компания разместила на облачной инфраструктуре 30
-            сайтов холдинга и защитила их от DDoS-атак.
-          </p>
-        </section>
-        <section class="article-metall-adv">
-          <img
-            class="article-image"
-            alt="Шахта"
-            src="<%=require('./images/article-metall-image2.jpg')%>"
-          />
-          <div
-            class="article-metall-adv__frame article-metall-adv__frame_order_first article-metall-adv__frame_border_right"
-          >
-            <h2 class="article-metall__title">Преимущества</h2>
-            <p class="article-metall__text">
-              реализации одного проекта на базе машинного обучения в сравнении с
-              разработкой в облачной инфраструктуре внутри корпоративной сети:
-            </p>
-          </div>
-          <ul class="article-metall-adv__frames">
-            <li
-              class="article-metall-adv__frame article-metall-adv__frame_border_bottom"
-            >
-              <p class="article-metall-adv__title">
-                1 VS 10<span class="article-metall-adv__title-span">Дней</span>
-              </p>
-              <p class="article-metall__text">
-                время выделения серверных мощностей и первичная настройка
-                серверов в облаке
-              </p>
-            </li>
-            <li
-              class="article-metall-adv__frame article-metall-adv__frame_border_bottom"
-            >
-              <p class="article-metall-adv__title">
-                15–20<span class="article-metall-adv__title-span">%</span>
-              </p>
-              <p class="article-metall__text">
-                сокращение времени создания и тюнинг ML-модели, разработка ПО и
-                тестирование в облаке
-              </p>
-            </li>
-            <li
-              class="article-metall-adv__frame article-metall-adv__frame_border_bottom"
-            >
-              <p class="article-metall-adv__title">
-                40-50<span class="article-metall-adv__title-span">%</span>
-              </p>
-              <p class="article-metall__text">
-                суменьшение времени развертывания и запуска веб-приложения или
-                сайта в облаке (деплой)
-              </p>
-            </li>
-            <li class="article-metall-adv__frame">
-              <p class="article-metall-adv__title">
-                18<span class="article-metall-adv__title-span">%</span>
-              </p>
-              <p class="article-metall__text">
-                составляет разница в продолжительности проекта в пользу
-                разработки на облачной платформе.
-              </p>
-            </li>
-          </ul>
-          <div class="article-quote">
-            <blockquote class="article-quote__block">
-              <p class="article-quote__text">
-                «Еще в конце прошлого года мы отметили рост потребления облачных
-                сервисов в металлургии и горнодобывающей отрасли. Отчасти это
-                связано с тем, что крупнейшие промышленные компании России
-                объединили усилия по разработке специализированного ПО в
-                индустриальном центре компетенций «Металлургия». Проекты
-                участников ИЦК решают разные задачи: управления производством,
-                обеспечения безопасности окружающей среды, анализа вредных
-                выбросов, поиска и аналитики данных. В таких инициативах
-                облачные сервисы могут служить единой платформой для обработки
-                терабайтов данных, использоваться для организации «песочниц»,
-                более эффективной работы распределенных команд и других важных
-                задач».
-              </p>
-            </blockquote>
-            <div class="article-quote__speaker">
-              <img
-                src="<%=require('./images/article-speaker-prieditis.jpg')%>"
-                alt="Павел Приедитис"
-                class="article-quote__photo"
-              />
-              <p class="article-quote__name">
-                Павел Приедитис<span class="article-quote__position"
-                  >директор по работе с промышленным сектором
-                  Yandex CloudL</span
-                >
-              </p>
-            </div>
-          </div>
-          <div
-            class="article-metall-adv__frame article-metall-adv__frame_order_third"
-          >
-            <div class="article-quote">
-              <div class="article-quote__speaker">
-                <img
-                  src="<%=require('./images/article-speaker-manikhin.jpg')%>"
-                  alt="Алексей Манихин"
-                  class="article-quote__photo"
-                />
-                <p class="article-quote__name">
-                  Алексей Манихин<span class="article-quote__position"
-                    >директор по ИТ-стратегии и развитию «Норникеля»</span
-                  >
-                </p>
-              </div>
-              <blockquote class="article-quote__block">
-                <p class="article-quote__text">
-                  «Большой интерес вызывает новая технология YandexGPT, так как
-                  у некоторых наших разработчиков уже есть опыт и идеи
-                  использования больших языковых моделей. Кроме того, мы хотим
-                  расширить применение технологий глубокого анализа данных с
-                  элементами машинного обучения».
-                </p>
-              </blockquote>
-            </div>
-          </div>
-        </section> -->
         <section class="article-links">
           <h2 class="article-links__title">Читайте далее</h2>
           <ul class="article-links__container">
