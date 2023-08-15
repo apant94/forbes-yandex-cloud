@@ -1,0 +1,10 @@
+.article-framer_flex_row {
+  flex-direction: row;
+  width: 112.5em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-framer_flex_row {
+    width: 360em;
+  }
+}

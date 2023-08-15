@@ -1,0 +1,10 @@
+.article-frame_flex_row {
+  border-right: 1px solid var(--primary-color);
+  border-bottom: none;
+  padding: 0.4em 1.56em 0.78em;
+  box-sizing: border-box;
+}
+
+.article-frame_flex_row:last-child {
+  border-right: none;
+}
