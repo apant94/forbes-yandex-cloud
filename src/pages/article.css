@@ -66,3 +66,52 @@
 @import url(../blocks/article-links/__container/article-links__container.css);
 @import url(../blocks/article-links/__image/article-links__image.css);
 @import url(../blocks/article-links/__image/_order/article-links__image_order_second.css);
+
+.slider {
+  position: relative;
+  height: 200px;
+  width: 58%;
+  margin: 1.56em 0 3.9em 41.41em;
+  user-select: none;
+  touch-action: pan-y;
+  box-sizing: border-box;
+}
+
+.slider img {
+  poiner-events: none;
+  box-sizing: border-box;
+}
+
+.slider-list {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.slider-list.grab {
+  cursor: grab;
+  box-sizing: border-box;
+}
+
+.slider-list.grabbing {
+  cursor: grabbing;
+  box-sizing: border-box;
+}
+
+.slider-track {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.slide {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
