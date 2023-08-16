@@ -14,3 +14,22 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .animation {
+    transform: translateY(10em);
+    opacity: 0;
+    animation: fadeUp 1s forwards;
+  }
+
+  @keyframes fadeUp {
+    0% {
+      transform: translateY(10em);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
