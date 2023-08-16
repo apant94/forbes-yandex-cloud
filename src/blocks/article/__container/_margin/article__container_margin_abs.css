@@ -2,3 +2,10 @@
   margin-left: 41.41em;
   width: 36.4%;
 }
+
+@media screen and (max-width: 640px) {
+  .article__container_margin_abs {
+    margin: 0 auto;
+    width: calc(100% - 10em);
+  }
+}
