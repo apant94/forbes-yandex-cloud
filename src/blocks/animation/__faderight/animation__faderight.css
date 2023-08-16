@@ -1,6 +1,6 @@
 @media screen and (max-width: 640px) {
   .animation__faderight {
-    transform: translate(5em, 20px);
+    transform: translate(5em, 150px);
     opacity: 0;
     animation: fadeRight 1s forwards;
     z-index: 3;
@@ -8,7 +8,7 @@
 
   @keyframes fadeRight {
     0% {
-      transform: translate(5em, 20px);
+      transform: translate(5em, 150px);
       opacity: 0;
     }
     100% {

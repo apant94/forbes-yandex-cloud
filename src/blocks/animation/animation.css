@@ -1,12 +1,12 @@
 .animation {
-  transform: translateY(4em);
+  transform: translateY(100px);
   opacity: 0;
   animation: fadeUp 1s forwards;
 }
 
 @keyframes fadeUp {
   0% {
-    transform: translateY(4em);
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
@@ -17,14 +17,14 @@
 
 @media screen and (max-width: 640px) {
   .animation {
-    transform: translateY(10em);
+    transform: translateY(50px);
     opacity: 0;
     animation: fadeUp 1s forwards;
   }
 
   @keyframes fadeUp {
     0% {
-      transform: translateY(10em);
+      transform: translateY(50px);
       opacity: 0;
     }
     100% {
