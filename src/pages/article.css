@@ -1,3 +1,4 @@
+@import url(../blocks/animation/animation.css);
 @import url(../blocks/article-header/article-header.css);
 @import url(../blocks/article-header/__logo/article-header__logo.css);
 @import url(../blocks/article-header/__wrapper/article-header__wrapper.css);
@@ -12,6 +13,7 @@
 @import url(../blocks/article/_margin/article_margin_abs.css);
 @import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__container/article__container.css);
+@import url(../blocks/article/__container/_margin/article__container_margin_abs.css);
 @import url(../blocks/article/__list/article__list.css);
 @import url(../blocks/article/__list-item/article__list-item.css);
 @import url(../blocks/article/__text-block/article__text-block.css);
