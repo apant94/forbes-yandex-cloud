@@ -1,0 +1,31 @@
+.main-animation__fadedown {
+  animation: fadeDown 0.5s forwards 0.3s;
+}
+
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-animation__fadedown {
+    animation: fadeDown 0.5s forwards 0.3s;
+  }
+
+  @keyframes fadeDown {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}

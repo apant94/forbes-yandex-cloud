@@ -1,0 +1,11 @@
+.main-animation {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .main-animation {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
