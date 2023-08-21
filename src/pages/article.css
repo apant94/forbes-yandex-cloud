@@ -55,6 +55,9 @@
 @import url(../blocks/article-quote/__name/article-quote__name.css);
 @import url(../blocks/article-quote/__position/article-quote__position.css);
 @import url(../blocks/article-image/article-image.css);
+@import url(../blocks/article-image/_position/article-image_position_metall.css);
+@import url(../blocks/article-image/_position/article-image_position_retail.css);
+@import url(../blocks/article-image/_position/article-image_position_bank.css);
 @import url(../blocks/article-card/article-card.css);
 @import url(../blocks/article-card/_form/article-card_form_square.css);
 @import url(../blocks/article-card/_location/article-card_location_grid.css);
