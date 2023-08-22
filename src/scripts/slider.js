@@ -57,7 +57,6 @@ let slider = document.querySelector('.slider'),
     }
   },
   swipeAction = function () {
-    console.log(slideWidth);
     let evt = getEvent(),
       style = sliderTrack.style.transform,
       transform = +style.match(trfRegExp)[0];
@@ -87,7 +86,7 @@ let slider = document.querySelector('.slider'),
           allowSwipe = true;
         }
       }
-      console.log(slideIndex);
+
       // запрет ухода вправо на последнем слайде
       let slideEndIndex = slideIndex;
       if (window.innerWidth > 640) {
