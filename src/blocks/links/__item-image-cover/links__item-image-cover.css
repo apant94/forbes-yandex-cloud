@@ -1,0 +1,13 @@
+.links__item-image-cover {
+  width: 100%;
+  background: var(--links-gradient);
+  position: relative;
+  height: 17.5em;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+  .links__item-image-cover {
+    height: 45em;
+  }
+}

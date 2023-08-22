@@ -1,12 +1,6 @@
 .links__item-image {
-  background-image: url(../../../images/links-image.png);
   width: 100%;
-  padding-bottom: 61.1%;
-  height: 0;
-}
-
-@media screen and (max-width: 640px) {
-  .links__item-image {
-    padding-bottom: 56.3%;
-  }
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
 }
