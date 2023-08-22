@@ -1,0 +1,4 @@
+.links__item-image-cover {
+  width: 100%;
+  background: var(--links-gradient);
+}

@@ -1,0 +1,15 @@
+.carousel__article-cover {
+  height: 47em;
+  width: 50%;
+  padding: 4.22em 2.58em 1.88em;
+  box-sizing: border-box;
+  background: var(--primary-gradient);
+}
+
+@media screen and (max-width: 640px) {
+  .carousel__article-cover {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}

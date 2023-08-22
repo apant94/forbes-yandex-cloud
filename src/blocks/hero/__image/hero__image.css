@@ -1,4 +1,12 @@
 .hero__image {
   object-fit: contain;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .hero__image {
+    position: relative;
+  }
 }

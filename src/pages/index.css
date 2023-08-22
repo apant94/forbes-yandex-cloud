@@ -46,6 +46,7 @@
 @import url(../blocks/text/__article/text__article.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
 @import url(../blocks/text/__paragraph/_font/text__paragraph_font_large.css);
+@import url(../blocks/text/__article-cover/text__article-cover.css);
 @import url(../blocks/text/__article-image/text__article-image.css);
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__title/carousel__title.css);
@@ -58,6 +59,7 @@
 @import url(../blocks/carousel/__article/carousel__article.css);
 @import url(../blocks/carousel/__paragraphs/carousel__paragraphs.css);
 @import url(../blocks/carousel/__paragraph/carousel__paragraph.css);
+@import url(../blocks/carousel/__article-cover/carousel__article-cover.css);
 @import url(../blocks/carousel/__article-image/carousel__article-image.css);
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__title/links__title.css);
@@ -67,6 +69,7 @@
 @import url(../blocks/links/__container/links__container.css);
 @import url(../blocks/links/__item-wrapper/links__item-wrapper.css);
 @import url(../blocks/links/__item/links__item.css);
+@import url(../blocks/links/__item-image-cover/links__item-image-cover.css);
 @import url(../blocks/links/__item-image/links__item-image.css);
 @import url(../blocks/links/__item-sector/links__item-sector.css);
 @import url(../blocks/links/__item-title/links__item-title.css);

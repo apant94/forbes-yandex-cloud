@@ -1,0 +1,6 @@
+.text__article-cover {
+  background: var(--primary-gradient);
+  width: 100%;
+  padding-bottom: 100%;
+  height: 0;
+}

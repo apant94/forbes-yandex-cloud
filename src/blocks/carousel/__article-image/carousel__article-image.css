@@ -1,13 +1,8 @@
 .carousel__article-image {
   background-image: url(../../../images/carousel-image.png);
-  padding-bottom: 50%;
-  width: 50%;
+  padding-bottom: 100%;
+  width: 100%;
   height: 0;
-}
-
-@media screen and (max-width: 640px) {
-  .carousel__article-image {
-    padding-bottom: 100%;
-    width: 100%;
-  }
+  background-size: contain;
+  background-repeat: no-repeat;
 }
