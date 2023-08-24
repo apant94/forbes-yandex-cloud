@@ -1,12 +1,17 @@
 .hero__image {
   object-fit: contain;
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 @media screen and (max-width: 640px) {
   .hero__image {
     position: relative;
   }
+}
+
+.hero__image_type_tablet {
+  top: 42px;
+  left: 31px;
 }

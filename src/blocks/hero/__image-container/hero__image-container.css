@@ -5,6 +5,7 @@
   flex-direction: column;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 640px) {
