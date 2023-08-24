@@ -1,6 +1,7 @@
 .hero__image {
   object-fit: contain;
   position: absolute;
+  transition: 0.4s ease-out;
 }
 
 @media screen and (max-width: 640px) {
