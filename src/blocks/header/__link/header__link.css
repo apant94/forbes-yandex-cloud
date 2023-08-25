@@ -1,4 +1,7 @@
 .header__link {
   text-decoration: none;
   color: transparent;
+  height: min-content;
+  display: block;
+  cursor: pointer;
 }

@@ -1,20 +1,9 @@
 .hero__sector {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.781em;
   flex: 1 0 0;
   border-right: 1px solid var(--primary-color);
 }
 
 .hero__sector:last-child {
   border-right: none;
-}
-
-@media screen and (max-width: 640px) {
-  .hero__sector {
-    gap: 1.25em;
-  }
 }
