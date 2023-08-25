@@ -22,6 +22,7 @@ let slider = document.querySelector('.slider'),
   swipeStartTime,
   swipeEndTime,
   getEvent = function () {
+    console.log(event);
     return (event.type.search('touch') !== -1) ? event.touches[0] : event;
   },
   slide = function () {
