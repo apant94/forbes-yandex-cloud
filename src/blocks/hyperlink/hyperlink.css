@@ -1,0 +1,7 @@
+.hyperlink {
+  color: var(--primary-color);
+}
+
+.hyperlink:hover {
+  text-decoration: none;
+}
