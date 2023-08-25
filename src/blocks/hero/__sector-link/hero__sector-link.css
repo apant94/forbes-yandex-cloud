@@ -1,0 +1,16 @@
+.hero__sector-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.781em;
+  height: 100%;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 640px) {
+  .hero__sector-link {
+    gap: 1.25em;
+  }
+}

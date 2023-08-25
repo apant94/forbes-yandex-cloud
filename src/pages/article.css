@@ -1,6 +1,7 @@
 @import url(../blocks/animation/animation.css);
 @import url(../blocks/animation/__faderight/animation__faderight.css);
 @import url(../blocks/article-header/article-header.css);
+@import url(../blocks/article-header/__link/article-header__link.css);
 @import url(../blocks/article-header/__logo/article-header__logo.css);
 @import url(../blocks/article-header/__wrapper/article-header__wrapper.css);
 @import url(../blocks/article-header/__wrapper/_content/article-header__wrapper_content_retail.css);
@@ -42,6 +43,7 @@
 @import url(../blocks/article-frame/__blue-text/article-frame__blue-text.css);
 @import url(../blocks/article-frame/__blue-text/_order/article-frame__blue-text_order_column.css);
 @import url(../blocks/article-frame/__blue-span/article-frame__blue-span.css);
+@import url(../blocks/article-frame/__blue-span/_type/article-frame__blue-span_type_x.css);
 @import url(../blocks/article-frame/__list/article-frame__list.css);
 @import url(../blocks/article-frame/__list/_padding/article-frame__list_padding_abs.css);
 @import url(../blocks/article-frame/__list/_gap/article-frame__list_gap_smaller.css);
