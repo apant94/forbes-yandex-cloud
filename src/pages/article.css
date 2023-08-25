@@ -1,6 +1,7 @@
 @import url(../blocks/animation/animation.css);
 @import url(../blocks/animation/__faderight/animation__faderight.css);
 @import url(../blocks/article-header/article-header.css);
+@import url(../blocks/article-header/__link/article-header__link.css);
 @import url(../blocks/article-header/__logo/article-header__logo.css);
 @import url(../blocks/article-header/__wrapper/article-header__wrapper.css);
 @import url(../blocks/article-header/__wrapper/_content/article-header__wrapper_content_retail.css);

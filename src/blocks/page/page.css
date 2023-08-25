@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0;
   color: var(--text-color);
+  overflow: hidden;
   font-family: 'NTSomic', 'Arial', 'Helvetica', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
