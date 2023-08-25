@@ -1,0 +1,24 @@
+.links__item-link {
+  width: max-content;
+  margin: 1.25em 0 0;
+  font-size: var(--small-text-size);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  padding: 0.25em 1.625em 0.375em 0.625em;
+  border: 1px solid black;
+  position: relative;
+  justify-self: flex-end;
+}
+
+.links__item-link::after {
+  content: '';
+  background-image: url(../../../images/carousel-arrow.svg);
+  height: 1.2em;
+  position: absolute;
+  right: 0.125em;
+  top: 0.45em;
+  width: 1.25em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
