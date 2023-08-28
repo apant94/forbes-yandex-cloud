@@ -4,12 +4,6 @@
   transition: 0.4s ease-out;
 }
 
-/* @media screen and (max-width: 640px) {
-  .hero__image {
-    position: relative;
-  }
-} */
-
 .hero__image_type_dot1 {
   height: 1.72em;
   width: 1.72em;

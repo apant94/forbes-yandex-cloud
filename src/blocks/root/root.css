@@ -38,6 +38,11 @@
     #5d81f7 0%,
     rgba(93, 129, 247, 0) 89.58%
   );
+  --mobile-text-gradient: radial-gradient(
+    367.81% 367.81% at -12.88% -274.25%,
+    #5d81f7 0%,
+    rgba(93, 129, 247, 0) 100%
+  );
   --links-gradient: linear-gradient(
     174deg,
     #fff 0%,
