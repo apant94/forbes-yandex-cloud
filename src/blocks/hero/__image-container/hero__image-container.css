@@ -11,6 +11,7 @@
 @media screen and (max-width: 640px) {
   .hero__image-container {
     width: 100%;
-    padding: 30.25em 5em 10em;
+    background: var(--mobile-primary-gradient);
+    height: 120em;
   }
 }

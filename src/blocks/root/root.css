@@ -33,6 +33,11 @@
     rgba(93, 129, 247, 0.21) 49.55%,
     rgba(93, 129, 247, 0) 90.29%
   );
+  --mobile-primary-gradient: radial-gradient(
+    223.83% 193% at 27.38% -83.96%,
+    #5d81f7 0%,
+    rgba(93, 129, 247, 0) 89.58%
+  );
   --links-gradient: linear-gradient(
     174deg,
     #fff 0%,
