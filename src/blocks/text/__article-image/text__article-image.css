@@ -1,7 +1,35 @@
 .text__article-image {
-  background-image: url(../../../images/text-image.png);
-  width: 100%;
-  padding-bottom: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  object-fit: contain;
+  position: absolute;
+  transition: 0.4s ease-out;
+}
+
+.text__article-image_type_fan {
+  width: 38.5em;
+  height: 36.8em;
+  top: 2.9em;
+  left: 1.48em;
+  z-index: 2;
+}
+
+.text__article-image_type_symbol1 {
+  width: 22.3em;
+  height: 22.4em;
+  top: 0;
+  right: 3.83em;
+}
+
+.text__article-image_type_symbol2 {
+  width: 22.2em;
+  height: 22.2em;
+  bottom: 0;
+  left: 2.5em;
+}
+
+.text__article-image_type_dots {
+  width: 38.5em;
+  height: 27.3em;
+  top: 7em;
+  left: 1.48em;
+  z-index: 3;
 }
