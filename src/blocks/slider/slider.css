@@ -2,9 +2,9 @@
   position: relative;
   width: 58%;
   margin: 1.56em 0 3.9em 41.41em;
-  user-select: none;
+  /* user-select: none;
   touch-action: pan-y;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 @media screen and (max-width: 640px) {

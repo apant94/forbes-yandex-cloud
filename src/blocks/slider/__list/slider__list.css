@@ -1,16 +1,12 @@
 .slider__list {
   width: 100%;
   height: 28.4em;
-  overflow: hidden;
   box-sizing: border-box;
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
-
-.slider__list.grab {
-  cursor: grab;
-}
-
-.slider__list.grabbing {
-  cursor: grabbing;
+.slider__list::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 640px) {
