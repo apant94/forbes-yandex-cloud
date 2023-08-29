@@ -8,6 +8,7 @@
 @import url(../blocks/article-header/__title/article-header__title.css);
 @import url(../blocks/article-header/__subtitle/article-header__subtitle.css);
 @import url(../blocks/article-header/__image/article-header__image.css);
+@import url(../blocks/article-header/__image-item/article-header__image-item.css);
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/_grid/article_grid_metall.css);
 @import url(../blocks/article/_grid/article_grid_retail.css);
@@ -74,4 +75,4 @@
 @import url(../blocks/article-links/__title/article-links__title.css);
 @import url(../blocks/article-links/__container/article-links__container.css);
 @import url(../blocks/article-links/__image/article-links__image.css);
-@import url(../blocks/article-links/__image/_order/article-links__image_order_second.css);
+@import url(../blocks/article-links/__image-item/article-links__image-item.css);

@@ -48,4 +48,15 @@
     rgba(93, 129, 247, 0.2) 0%,
     rgba(93, 129, 247, 0) 82.41%
   );
+  --article-header-gradient: linear-gradient(
+    180deg,
+    rgba(93, 129, 247, 0.2) 0%,
+    rgba(93, 129, 247, 0) 89.58%
+  );
+
+  --article-links-gradient: linear-gradient(
+    180deg,
+    rgba(93, 129, 247, 0.2) 0%,
+    rgba(93, 129, 247, 0) 89.58%
+  );
 }
