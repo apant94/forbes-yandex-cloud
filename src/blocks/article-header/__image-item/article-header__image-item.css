@@ -14,8 +14,8 @@
   .article-header__image-item_type_tablet1 {
     width: 45.4em;
     height: 40.2em;
-    left: -10em;
-    bottom: 9em;
+    left: -3.75em;
+    bottom: 26em;
   }
 }
 
@@ -31,8 +31,8 @@
   .article-header__image-item_type_tablet2 {
     width: 37em;
     height: 31.2em;
-    right: 22.5em;
-    bottom: -7.5em;
+    right: 14.2em;
+    bottom: 10em;
   }
 }
 
@@ -47,8 +47,76 @@
   .article-header__image-item_type_tablet3 {
     width: 28.5em;
     height: 24em;
-    right: 4.5em;
-    bottom: 29.5em;
+    right: -3.75em;
+    bottom: 46.5em;
+  }
+}
+
+.article-header__image-item_type_tablet4 {
+  width: 22em;
+  height: 18.5em;
+  left: 10.1em;
+  bottom: 3.9em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet4 {
+    width: 47em;
+    height: 39em;
+    left: 21.5em;
+    bottom: 13.5em;
+    z-index: 3;
+  }
+}
+
+.article-header__image-item_type_tablet5 {
+  width: 12em;
+  height: 11.5em;
+  right: 6.8em;
+  top: 3.9em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet5 {
+    width: 24.5em;
+    height: 23em;
+    right: 16em;
+    top: 13.5em;
+  }
+}
+
+.article-header__image-item_type_tablet6 {
+  width: 8.2em;
+  height: 7.2em;
+  left: 10.7em;
+  top: 7.3em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet6 {
+    width: 17em;
+    height: 15em;
+    left: 22.7em;
+    top: 21.3em;
+  }
+}
+
+.article-header__image-item_type_tablet7 {
+  width: 18.2em;
+  height: 13.5em;
+  left: 14.3em;
+  bottom: 7.4em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet7 {
+    width: 38em;
+    height: 28.5em;
+    left: 31em;
+    bottom: 21.4em;
   }
 }
 
@@ -63,8 +131,57 @@
   .article-header__image-item_type_dot1 {
     width: 4.5em;
     height: 4.5em;
-    left: 34em;
-    bottom: 35em;
+    left: 40em;
+    bottom: 52em;
+  }
+}
+
+.article-header__image-item_type_dot2 {
+  width: 1.64em;
+  height: 1.64em;
+  right: 17.4em;
+  top: 9.45em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_dot2 {
+    width: 3.5em;
+    height: 3.5em;
+    right: 37em;
+    top: 25.5em;
+  }
+}
+
+.article-header__image-item_type_dot3 {
+  width: 3.6em;
+  height: 3.6em;
+  right: 11.6em;
+  top: 13.1em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_dot2 {
+    width: 7.5em;
+    height: 7.5em;
+    right: 24.5em;
+    top: 35.2em;
+  }
+}
+
+.article-header__image-item_type_dot3 {
+  width: 2.34em;
+  height: 2.34em;
+  right: 15.8em;
+  top: 11.2em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_dot3 {
+    width: 5em;
+    height: 5em;
+    right: 33.7em;
+    top: 30em;
   }
 }
 
@@ -79,7 +196,71 @@
   .article-header__image-item_type_star1 {
     width: 19.5em;
     height: 16.2em;
-    right: 30em;
-    bottom: 19em;
+    right: 21em;
+    bottom: 36em;
+  }
+}
+
+.article-header__image-item_type_star2 {
+  width: 16.25em;
+  height: 18.2em;
+  left: 0;
+  top: 3.9em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_star2 {
+    width: 34.5em;
+    height: 38.5em;
+    left: 0;
+    top: 13.5em;
+  }
+}
+
+.article-header__image-item_type_star3 {
+  width: 11.6em;
+  height: 11.6em;
+  right: 0;
+  bottom: 11.9em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_star3 {
+    width: 24.5em;
+    height: 24.5em;
+    right: 0;
+    bottom: 31em;
+  }
+}
+
+.article-header__image-item_type_star4 {
+  width: 14.8em;
+  height: 14.8em;
+  left: 2.6em;
+  top: 11em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_star4 {
+    width: 31.5em;
+    height: 31.5em;
+    left: 5.6em;
+    top: 29em;
+  }
+}
+
+.article-header__image-item_type_star5 {
+  width: 11.48em;
+  height: 10.2em;
+  right: 2.6em;
+  top: 9.2em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_star5 {
+    width: 24em;
+    height: 21em;
+    right: 5.6em;
+    top: 25em;
   }
 }
