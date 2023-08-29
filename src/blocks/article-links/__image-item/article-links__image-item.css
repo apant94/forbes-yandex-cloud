@@ -9,11 +9,29 @@
   top: 3.6em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_star1 {
+    width: 31.5em;
+    height: 31.5em;
+    left: 0;
+    top: 11.5em;
+  }
+}
+
 .article-links__image-item_type_star2 {
   width: 7.65em;
   height: 6.9em;
   right: 9.5em;
   top: 2.5em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_star2 {
+    width: 24.2em;
+    height: 21.5em;
+    right: 0em;
+    top: 8em;
+  }
 }
 
 .article-links__image-item_type_star3 {
@@ -23,11 +41,29 @@
   top: -1.01em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_star3 {
+    width: 30em;
+    height: 39em;
+    left: 0em;
+    top: -3.2em;
+  }
+}
+
 .article-links__image-item_type_star4 {
   width: 7.7em;
   height: 7.7em;
   right: 7.8em;
   top: 5.6em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_star4 {
+    width: 21.7em;
+    height: 24.2em;
+    right: 0em;
+    top: 18em;
+  }
 }
 
 .article-links__image-item_type_star5 {
@@ -37,6 +73,15 @@
   bottom: 4.5em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_star5 {
+    width: 22em;
+    height: 21em;
+    right: 16.2em;
+    bottom: 14.5em;
+  }
+}
+
 .article-links__image-item_type_tablet1 {
   width: 5.55em;
   height: 4.84em;
@@ -44,11 +89,30 @@
   top: 1.2em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet1 {
+    width: 17.5em;
+    height: 15em;
+    left: 23em;
+    top: 4em;
+  }
+}
+
 .article-links__image-item_type_tablet2 {
   width: 12.1em;
   height: 9.06em;
   right: 14.2em;
   bottom: 1.25em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet2 {
+    width: 38em;
+    height: 28.5em;
+    right: 15.5em;
+    bottom: 0em;
+    z-index: 2;
+  }
 }
 
 .article-links__image-item_type_tablet3 {
@@ -59,11 +123,29 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet3 {
+    width: 42em;
+    height: 39em;
+    left: 19em;
+    bottom: -3.2em;
+  }
+}
+
 .article-links__image-item_type_tablet4 {
   width: 8em;
   height: 6.6em;
   right: 12.3em;
   top: -0.1em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet4 {
+    width: 19.5em;
+    height: 19.5em;
+    right: 14.7em;
+    top: -2em;
+  }
 }
 
 .article-links__image-item_type_tablet5 {
@@ -73,6 +155,15 @@
   top: 1.25em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet5 {
+    width: 40em;
+    height: 40em;
+    left: -3.5em;
+    top: 4em;
+  }
+}
+
 .article-links__image-item_type_tablet6 {
   width: 10.2em;
   height: 9.4em;
@@ -80,11 +171,29 @@
   bottom: -3em;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet6 {
+    width: 25em;
+    height: 24.2em;
+    right: 12.75em;
+    bottom: -9.5em;
+  }
+}
+
 .article-links__image-item_type_tablet7 {
   width: 9.6em;
   height: 8.1em;
   right: 6.25em;
   top: 0.7em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_tablet7 {
+    width: 26.7em;
+    height: 25.7em;
+    right: -3.5em;
+    top: 2.2em;
+  }
 }
 
 .article-links__image-item_type_dot1 {
@@ -95,12 +204,30 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_dot1 {
+    width: 5em;
+    height: 5em;
+    right: 28.7em;
+    top: 12.5em;
+  }
+}
+
 .article-links__image-item_type_dot2 {
   width: 1.17em;
   height: 1.17em;
   right: 19.4em;
   top: 2.6em;
   z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_dot2 {
+    width: 3em;
+    height: 3em;
+    right: 30em;
+    top: 8.5em;
+  }
 }
 
 .article-links__image-item_type_dot3 {
@@ -111,10 +238,29 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_dot3 {
+    width: 7em;
+    height: 7em;
+    right: 22em;
+    top: 16.2em;
+    z-index: 1;
+  }
+}
+
 .article-links__image-item_type_dot4 {
   width: 1.56em;
   height: 1.56em;
   left: 21em;
   top: 5.5em;
   z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-links__image-item_type_dot4 {
+    width: 4.2em;
+    height: 4.2em;
+    left: 37.5em;
+    top: 17.5em;
+  }
 }
