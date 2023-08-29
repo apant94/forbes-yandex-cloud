@@ -1,0 +1,85 @@
+.article-header__image-item {
+  position: absolute;
+}
+
+.article-header__image-item_type_tablet1 {
+  width: 21em;
+  height: 18.7em;
+  left: -4.5em;
+  bottom: 4.1em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet1 {
+    width: 45.4em;
+    height: 40.2em;
+    left: -10em;
+    bottom: 9em;
+  }
+}
+
+.article-header__image-item_type_tablet2 {
+  width: 17em;
+  height: 14.5em;
+  right: 10.3em;
+  bottom: -3.5em;
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet2 {
+    width: 37em;
+    height: 31.2em;
+    right: 22.5em;
+    bottom: -7.5em;
+  }
+}
+
+.article-header__image-item_type_tablet3 {
+  width: 13.2em;
+  height: 11.1em;
+  right: 1.95em;
+  bottom: 13.6em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_tablet3 {
+    width: 28.5em;
+    height: 24em;
+    right: 4.5em;
+    bottom: 29.5em;
+  }
+}
+
+.article-header__image-item_type_dot1 {
+  width: 2.26em;
+  height: 2.26em;
+  left: 15.6em;
+  bottom: 16.1em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_dot1 {
+    width: 4.5em;
+    height: 4.5em;
+    left: 34em;
+    bottom: 35em;
+  }
+}
+
+.article-header__image-item_type_star1 {
+  width: 9.1em;
+  height: 7.65em;
+  right: 13.7em;
+  bottom: 8.83em;
+}
+
+@media screen and (max-width: 640px) {
+  .article-header__image-item_type_star1 {
+    width: 19.5em;
+    height: 16.2em;
+    right: 30em;
+    bottom: 19em;
+  }
+}

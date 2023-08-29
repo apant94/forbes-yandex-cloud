@@ -1,5 +1,6 @@
 .article-header__wrapper {
-  width: 45%;
+  width: 51%;
+  max-width: 43.75em;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,5 +12,6 @@
     width: 100%;
     order: 1;
     position: relative;
+    max-width: unset;
   }
 }
