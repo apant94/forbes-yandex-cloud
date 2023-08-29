@@ -6,7 +6,7 @@
   width: 21em;
   height: 18.7em;
   left: -4.5em;
-  bottom: 4.1em;
+  bottom: 12.1em;
   z-index: 2;
 }
 
@@ -23,7 +23,7 @@
   width: 17em;
   height: 14.5em;
   right: 10.3em;
-  bottom: -3.5em;
+  bottom: 4.5em;
   z-index: 2;
 }
 
@@ -40,7 +40,7 @@
   width: 13.2em;
   height: 11.1em;
   right: 1.95em;
-  bottom: 13.6em;
+  bottom: 21.6em;
 }
 
 @media screen and (max-width: 640px) {
@@ -124,7 +124,7 @@
   width: 2.26em;
   height: 2.26em;
   left: 15.6em;
-  bottom: 16.1em;
+  bottom: 24.1em;
 }
 
 @media screen and (max-width: 640px) {
@@ -189,7 +189,7 @@
   width: 9.1em;
   height: 7.65em;
   right: 13.7em;
-  bottom: 8.83em;
+  bottom: 16.83em;
 }
 
 @media screen and (max-width: 640px) {
