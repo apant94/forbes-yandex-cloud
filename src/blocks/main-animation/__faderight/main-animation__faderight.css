@@ -1,16 +1,16 @@
 @media screen and (max-width: 640px) {
   .main-animation__faderight {
-    transform: translateX(5em);
-    animation: fadeRight 0.5s forwards 0.3s;
+    transform: translate(5em, -20px);
+    animation: mainFadeRight 0.5s forwards 0.3s;
   }
 
-  @keyframes fadeRight {
+  @keyframes mainFadeRight {
     0% {
-      transform: translateX(5em);
+      transform: translate(5em, -20px);
       opacity: 0;
     }
     100% {
-      transform: translateX(5em);
+      transform: translate(5em, 0);
       opacity: 1;
     }
   }
