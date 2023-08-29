@@ -1,5 +1,6 @@
 .article-header__image-item {
   position: absolute;
+  transition: 0.4s ease-out;
 }
 
 .article-header__image-item_type_tablet1 {

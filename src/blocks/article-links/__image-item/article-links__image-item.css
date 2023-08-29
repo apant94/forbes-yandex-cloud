@@ -1,5 +1,6 @@
 .article-links__image-item {
   position: absolute;
+  transition: 0.4s ease-out;
 }
 
 .article-links__image-item_type_star1 {
