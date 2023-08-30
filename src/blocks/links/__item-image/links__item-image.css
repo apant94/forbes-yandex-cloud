@@ -1,6 +1,7 @@
 .links__item-image {
   object-fit: contain;
   position: absolute;
+  transition: 0.4s ease-out;
 }
 
 .links__item-image_type_tablet1 {
