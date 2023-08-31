@@ -1,3 +1,7 @@
 .footer__credit-item {
   list-style: none;
 }
+
+.footer__credit-item:last-child {
+  margin-top: auto;
+}
