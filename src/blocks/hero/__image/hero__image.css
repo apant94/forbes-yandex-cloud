@@ -87,6 +87,9 @@
 }
 
 .hero__image_type_tablet1 {
+  background-image: url(../../../images/hero-tablet1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 7.58em;
   width: 8.98em;
   top: 4.28em;
@@ -122,6 +125,9 @@
 }
 
 .hero__image_type_tablet3 {
+  background-image: url(../../../images/hero-tablet3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 9em;
   width: 11em;
   top: 3.67em;
@@ -140,6 +146,9 @@
 }
 
 .hero__image_type_tablet4 {
+  background-image: url(../../../images/hero-tablet4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 13.1em;
   width: 18.5em;
   top: 15.8em;
