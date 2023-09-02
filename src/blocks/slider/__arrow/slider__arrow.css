@@ -1,0 +1,11 @@
+@media screen and (min-width: 641px) {
+  .slider__arrow {
+    position: absolute;
+    background-image: url(../../../images/slider-scroll.svg);
+    height: 3.125em;
+    width: 3.125em;
+    background-repeat: no-repeat;
+    top: -5.1em;
+    right: 3em;
+  }
+}

@@ -71,6 +71,7 @@
 @import url(../blocks/article-card/__list-item/article-card__list-item.css);
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__list/slider__list.css);
+@import url(../blocks/slider/__arrow/slider__arrow.css);
 @import url(../blocks/article-links/article-links.css);
 @import url(../blocks/article-links/__title/article-links__title.css);
 @import url(../blocks/article-links/__container/article-links__container.css);
