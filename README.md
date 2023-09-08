@@ -5,7 +5,7 @@
 ## Ссылки:
 
 - [Сайт на pages](https://apant94.github.io/forbes-yandex-cloud/)
-- [Cайт на домене]([https://easyhrs.hopto.org/](https://www.forbes.ru/special/yandexcloud/index.html?erid=4CQwVszH9pUkKkLs82c))
+- [Cайт на домене](https://www.forbes.ru/special/yandexcloud/index.html?erid=4CQwVszH9pUkKkLs82c)
 
 ## Функционал:
 
