@@ -1,6 +1,7 @@
 # forbes-yandex-cloud
 
 Лендинг статьи "Доверить бизнес облаку"
+<img width="1664" alt="Screenshot 2023-10-20 at 12 44 23" src="https://github.com/apant94/forbes-yandex-cloud/assets/103651974/dc0b3d6d-812e-4821-8699-06506b84adc0">
 
 ## Ссылки:
 
